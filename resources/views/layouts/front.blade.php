@@ -67,7 +67,7 @@
       <span class="tw"><a href="https://www.twitter.com" target="_blank">Twitter</a></span>
     </div>
     <div class="col-12 col-sm-7 col-lg-8  mail_block">
-      <span>@lang('front.phone'): (+995) 577 388 408</span>
+      <span>@lang('front.phone'): (+995) 577 308 408</span>
       <span>@lang('front.mail'): L.Gelashvili@Gmail.com</span>
     </div>
   </div>
