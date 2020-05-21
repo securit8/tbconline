@@ -31,4 +31,5 @@ class newsController extends Controller{
         return view('front/news/fullstory',$data);
     }
 
+
 }

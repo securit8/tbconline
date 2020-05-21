@@ -547,6 +547,40 @@ iframe {
   margin: 20px 0;
   height: 400px;
 }
+
+.contact{
+  background-color:#00A1FF;
+  width:300px;
+  position: fixed;
+  right:0px;
+  bottom:70px;
+  opacity: 0.5;
+  transition: all 1s ease
+
+}
+.contact h1{
+  color:white!important;
+  margin:0;
+  padding:10px;
+  text-align: center;
+}
+.contact p{
+  color:white!important;
+  padding-left: 10px;
+}
+
+.contact a{
+  color:white!important;
+}
+.contact_content{
+  display: none;
+}
+.contact:hover .contact_content{
+  display:block;
+}
+.contact:hover{
+  opacity:1!important;
+}
 /*end about page style*/
 /*start news page style*/
 #news {
@@ -1508,6 +1542,9 @@ footer .mail_block {
 @media screen and (min-width: 1200px) {
   .gallery_title {
     width: 90%;
+  }
+  .container{
+  
   }
 }
 

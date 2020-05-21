@@ -58,13 +58,82 @@
 
       <div class="col-2 py-5 text-center">
         <span class= "price">150Gel/day</span>
-       <button class="btn btn-warning mt-1">Select Car</button>
+       <button class="btn btn-warning mt-1" data-toggle="modal" data-target="#exampleModal">Select Car</button>
       </div>
     </div>
   </div>
     @endforeach
 
+<!-- modal section-->
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Booking & Paying</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form style="width:100%;margin:30px auto;">
+              <div class="form-row">
+                <div class="form-group  col-md-12 col-lg-6">
+                  <label for="inputEmail4">აირჩიეთ ავტომობილი</label>
+                  <select type="email" class="form-control" id="inputEmail4" placeholder="Mercedes">
+                    <option>Mercedes</option>
+                  <option>Bmw</option>
+                  <option>Porsche</option>
+                  <option>Ferrari</option>
+                  <option>Audi</option>
+                </select>
+                </div>
+                <div class="form-group  col-md-12 col-lg-6">
+                  <label for="inputPassword4">დღეების რაოდენობა</label>
+                  <select type="password" class="form-control" id="inputPassword4" placeholder="3">
+                    <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">აყვანის მდებარეობა</label>
+                <select type="text" class="form-control" id="inputAddress" placeholder="11 აღმაშენებელი">
+                  <option>11 აღმაშენებელი</option>
+                  <option>57 ა.ყაზბეგი</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">დაბრუნების მდებარეობა</label>
+                <select type="text" class="form-control" id="inputAddress2" placeholder="11 აღმაშენებელი">
+                  <option>11 აღმაშენებელი</option>
+                  <option>57 ა.ყაზბეგი</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <div class="form-group  col-md-12 col-lg-6">
+                  <label for="inputCity">გადასახდელი თანხა</label>
+                  <input type="text" class="form-control col-sm-4 col-md-4 col-3 px-2" id="inputCity" placeholder="ლარი" value="">
+                </div>
+            <div class="form-group  col-md-12 col-lg-6">
+              <label for="inputCity"class="invisible">ok</label>
+            <button type="submit" class="btn btn-primary form-control"><a class="text-white w-100 py-2 px-5"href="{{route('donation.index')}}">გადახდა</a></button>
+            </div>
+
+              </div>
+
+
+            </form>
+          </div>
+          <div class="modal-footer d-block text-center">
+            <h4 class="p-0 text-dark ">Thanks for enjoying our servise!</h4>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
 
     <!-- სურათების გალერეის გვერდების გადამრთველი  -->
