@@ -29,65 +29,65 @@
 
       <div class="conditions_rules container">
         <div class="col-12">
-        <h1 style="color:black;">Rental Terms And Conditions</h1>
-        <p><strong>Driving License</strong><br>
-          Any valid driving license which is printed in Latin or Cyrillic alphabet is acceptable on territory of Georgia during one year after Car Renter’s arrival
-        </p>
+        <h1 style="color:black;">@lang('front.rental_header')</h1>
+        <p><strong>@lang('front.driving_licence')</strong><br>
+           @lang('front.driving_content')
+                 </p>
 
         <p></p>
 
-        <p><strong>Age Restrictions</strong><br>
-         Any driver who is at least 21 years old and has 1 year of driving experience is automatically insured with all conditions listed below
+        <p><strong>@lang('front.age_restriction')</strong><br>
+         @lang('front.age_content')
        </p>
 
-       <p><strong>How To Book Vehicle</strong><br>
+       <p><strong>@lang('front.book_title')</strong><br>
          <ol>
-           <li><strong>Online</strong>
-             reservation by checking the available vehicle according to the date and location on the front page <a href=""> https://bestcarrent.ge </a>and make a online reservation. Reservation is free of charge and you don't need to make an online prepayment
+           <li><strong>@lang('front.online')</strong>
+             @lang('front.online_content')
            </li>
 
-           <li><strong>Email</strong>
-            reservation  you can send you request and we will make a reservation for you
+           <li><strong>@lang('front.email')</strong>
+            @lang('front.email_content')
            </li>
 
-           <li><strong>Phone</strong>
-            Phone reservation are accepted on our 24/7 service hotline
+           <li><strong>@lang('front.phone')</strong>
+            @lang('front.phone_content')
            </li>
 
          </ol>
 
            <ul>
-             <li>reservation  you can send you request and we will make a reservation for you reservation  you can send you request and we will make a reservation for you reservation  you can send you request and we will make a reservation for you reservation  you can send you request and we will make a reservation for you
+             <li>@lang('front.book1')
              </li>
-             <li>We recommend you to look through available vehicles for the rental period by according to the date and location before making email or phone reservation. During the summer season we strongly advise to reserve a vehicle online before making a mail or a phone confirmation
+             <li>@lang('front.book2')
              </li>
            </ul>
 
           <p></p>
-         <p><strong>Payment methods:</strong></p>
+         <p><strong>@lang('front.payment')</strong></p>
          <ol>
-           <li><strong>Cash</strong>, on the first day of the rental
+           <li><strong>@lang('front.cash')</strong>@lang('front.cash_content')
            </li>
-           <li><strong>Debit/Credit Card</strong> payment (Viza Or Mastercard Debit or Credit Card) additional charge of 3.5% is added to the rental price. Card payment can be done during vehicle pickup (not online). You can select card payment during the booking process.
+           <li><strong>@lang('front.debit')</strong>@lang('front.debit_content')
            </li>
-           <li><strong>Bank</strong> transfer,must be requested by email and paid at least 1 week before the start of the rental and paid by invoice
+           <li><strong>@lang('front.bank')</strong>@lang('front.bank_content')
            </li>
          </ol>
 
          <p></p>
-        <p><strong>One Way Rentals</strong></p>
-        <p>National One-Way Rentals are prices are calculated automatically during when you search for available vehicle according to the date and location.
+        <p><strong>@lang('front.rules')</strong></p>
+        <p>@lang('front.rules_1')
         </p>
-        <p>International Crossing of the border can be done with all vehicles (unless indecated otherwise), but pickup and drop off location must the territory of the same country.
+        <p>@lang('front.rules_2')
         </p>
 
            <p></p>
            <p></p>
-          <p><strong>Rules Regarding Fines:</strong></p>
+          <p><strong>@lang('front.fines')</strong></p>
           <ul>
-            <li>If during rental period Car Renter violates any parking or traffic laws, Car Renter is obliged to compensate the amount of fine defined by Car Owner (NOTE: ask for documentation from official governmet sites for egs. <a href=""> https://parking.tbilisi.gov.ge </a>,<a href=""> https://police.ge </a>, etc.). In case of video fine, Car renter is obliged to follow the instructions of the Car Owner and take responsibilities on fine
+            <li>@lang('front.fines_1')
             </li>
-            <li>All fines that have been handed personally are registered in police database on Car Renter ’s name and must be paid by Georgian law before departure from the country
+            <li>@lang('front.fines_2')
             </li>
           </ul>
 

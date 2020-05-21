@@ -46,7 +46,7 @@
             <div class="container">
                 <div class="row">
                 <div class="col-12">
-              
+
                     <h1 style="color:gray;padding:20px;">{{ $value->name }}</h1>
                     <p class="mission">{!! $value->description !!}</p>
                 </div>
@@ -63,7 +63,14 @@
         @endif
 
     @endforeach
-
+    <div class = "contact">
+        <h1>@lang('front.contact')</h1>
+      <div class="contact_content">
+        <p>@lang('front.address'): <span>@lang('front.address_no')</span></p>
+        <p>@lang('front.phone'): <span>577308408</span></p>
+        <p>@lang('front.mail'): <span>L.Gelashvili.tsu@gmail.com</span></p>
+      </div>
+    </div>
   </section>
   <br>
 @endsection
