@@ -160,7 +160,7 @@
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);">
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5  style="min-height:50px;"class="card-title"><a href="{{ route('news.shuttle') }}">">შატლი ქალაქის ტერიტორიაზე</a></h5>
+  <h5  style="min-height:50px;"class="card-title"><a href="{{ route('news.shuttle') }}">შატლი ქალაქის ტერიტორიაზე</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">3ლ-დან </span></div>
@@ -215,7 +215,7 @@
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);" >
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5 class="card-title" style="min-height:50px;"><a href="{{ route('news.shuttle') }}">">შატლი ქალაქის ტერიტორიაზე</a></h5>
+  <h5 class="card-title" style="min-height:50px;"><a href="{{ route('news.shuttle') }}">შატლი ქალაქის ტერიტორიაზე</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">3ლ-დან </span></div>
