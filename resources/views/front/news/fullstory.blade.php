@@ -63,7 +63,7 @@
 </div>
 
 <div class="container p-0">
-  <h2 class = "mt-5 d-block">შატლი ქალაქის ტერიტორიაზე</h2><br>
+  <h2 class = "mt-5 d-block">შატლი ქალაქის ტერიტორიაზე:  გლდანი,დიდუბე,წერეთელი</h2><br>
    <h4 class = "mt-5 d-block">სერვისის აღწერა:</h4>
         <!--<img class="inner_news_image" src="{{ asset('front/assets/images/shuttle.jpg') }}" width="300"  height="500" >-->
     <div class="row ">
