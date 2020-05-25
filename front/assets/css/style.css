@@ -834,6 +834,26 @@ iframe {
 .gallery_links  {
   padding: 45px 0;
 }
+.circle{
+  color:black!important;
+  border:1px solid #c7c7c7!important;;
+  display:inline-block!important;;
+  text-align:center!important;;
+  line-height:29px!important;;
+  border-radius:50%!important;;
+  width:35px!important;;
+  height:35px!important;;
+}
+.circle:hover{
+  background-color: #F1F3F4;
+}
+.buy_ticket p{
+  margin:0!important;
+}
+.ticket_padding_top{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 /*.gallery_links a  {
   margin: 0 20px;
 }*/
@@ -1544,7 +1564,7 @@ footer .mail_block {
     width: 90%;
   }
   .container{
-  
+
   }
 }
 
