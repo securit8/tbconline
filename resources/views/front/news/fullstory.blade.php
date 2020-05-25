@@ -81,7 +81,7 @@
     <p style="color:black;font-size:1.5rem;">ერთჯერადი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;"><span class="circle minus">-</span><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><span class="circle plus">+</span></p>
+    <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
@@ -97,7 +97,7 @@
     <p style="color:black;font-size:1.5rem;">ერთთვიანი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-  <p style="color:black;font-size:1.5rem;"><span class="circle minus">-</span><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><span class="circle plus">+</span></p>
+  <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
   </div>
   <div class = "col-2 ticket_padding_top">
     <p style = "font-size:1.5rem;"><span style="color:black;">60</span>ლარი</p>
@@ -112,7 +112,7 @@
     <p style="color:black;font-size:1.5rem;">ერთწლიანი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;"><span class="circle minus">-</span><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><span class="circle plus">+</span></p>
+    <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
   </div>
   <div class = "col-2 ticket_padding_top">
     <p style = "font-size:1.5rem;"><span style="color:black;">500</span>ლარი</p>
@@ -241,7 +241,7 @@ $('.stop').on('click',function(){
 document.querySelectorAll(".circle").forEach((btn)=>{
  btn.addEventListener("click",(e)=>{
    let clicked = e.target;
-   let parent = clicked.parentElement.getElementsByTagName('span')[1];
+   let parent = clicked.parentElement.getElementsByTagName('span')[0];
    let quantity = parent.childNodes[0].nodeValue;
    if(clicked.classList.contains('minus')){
      quantity--;
