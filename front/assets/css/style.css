@@ -2,7 +2,6 @@
 .gallery_links, .gallery_title, .form-control, .label-text, .hover15, .btn-red, .alert-success, .alert-danger {
   font-family: 'BPGDejaVuSansCaps-Book';
 }
-
 .news_block, .about_center_content,  .about_bottom_content, .contributors_text, .contr_text, .popup_content, .inner_news_text, .packet_text, .scholarship_text, .student_block_text {
   font-family: 'BPG2017DejaVuSans';
 }
@@ -73,7 +72,7 @@ ul {
 }
 
 header {
-  background-color: #C7C7C7;#181818;
+  background-color: white;
   height: 70px;
   line-height: 70px;
   position: fixed;
