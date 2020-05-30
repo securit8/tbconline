@@ -11,64 +11,9 @@
 @section('main')
 
 
-<section id="main_banner" class="container-fluid" style="margin-top:-200px;">
-<!--<img class="main_banner" src="{{ asset('front/assets/images/main_banner.png') }}" >
- <div class="container main_banner_text">
-    <div class="row">
-    <div class="col-12 col-md-6 col-lg-3 text_right">
-        <div class="right">
-        <h2>@lang('front.be_contributor')</h2>
-        <a href="{{route('donation.index')}}"><button type="button" class="btn btn-success">@lang('front.donation')<i class="fas fa-long-arrow-alt-right"></i></button></a>
-        </div>
-    </div>
-    </div>
-</div> -->
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    <img src="{{ asset('front/assets/images/main_banner1.png') }}" alt="First slide">
-    <div class="carousel-caption d-none d-md-block">
-      <h2>Your comfort is our goal!!!</h2>
-      <h5>Happy journey!</h5>
-    </div>
-  </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="{{ asset('front/assets/images/main_banner2.png') }}" alt="Second slide">
-      <div class="carousel-caption d-none d-md-block">
-        <h2>Most popular exotic car rental</h2>
-        <h5>Great deals!</h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="{{ asset('front/assets/images/main_banner.png') }}" alt="Third slide">
-      <div class="carousel-caption d-none d-md-block">
-        <h2>Vip klassen vehicles only for special clients</h2>
-        <h5>Perfect for businness meatings!</h5>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-</section>
 <section id="main" class="container">
 <div class="row justify-content-between news">
     <div class="col-4">
-
     <h4>@lang('front.main_news')</h4>
     </div>
     <div class="cocl-4  all_news">

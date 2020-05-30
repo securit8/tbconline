@@ -2,6 +2,12 @@
 .gallery_links, .gallery_title, .form-control, .label-text, .hover15, .btn-red, .alert-success, .alert-danger {
   font-family: 'BPGDejaVuSansCaps-Book';
 }
+
+.body
+{
+  background-color: red;
+}
+
 .news_block, .about_center_content,  .about_bottom_content, .contributors_text, .contr_text, .popup_content, .inner_news_text, .packet_text, .scholarship_text, .student_block_text {
   font-family: 'BPG2017DejaVuSans';
 }
@@ -72,7 +78,7 @@ ul {
 }
 
 header {
-  background-color: white;
+  background-color: black;
   height: 70px;
   line-height: 70px;
   position: fixed;
@@ -832,28 +838,6 @@ iframe {
 }
 .gallery_links  {
   padding: 45px 0;
-}
-.circle{
-  color:black!important;
-  background-color: transparent!important;
-  border:1px solid #c7c7c7!important;
-  display:inline-block!important;
-  text-align:center!important;
-  line-height:0px!important;
-  border-radius:50%!important;
-  width:35px!important;
-  height:35px!important;
-  padding-bottom: 7px!important;
-}
-.circle:hover{
-  background-color: #F1F3F4!important;
-}
-.buy_ticket p{
-  margin:0!important;
-}
-.ticket_padding_top{
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 /*.gallery_links a  {
   margin: 0 20px;
