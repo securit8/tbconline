@@ -12,18 +12,180 @@
 
 
 <section id="main" class="container">
-<div class="row justify-content-between news">
-    <div class="col-4">
-    <h4>@lang('front.main_news')</h4>
-    </div>
-    <div class="cocl-4  all_news">
-    <h6><a href="{{ route('index') }}">@lang('front.all_news')<i class="fas fa-long-arrow-alt-right"></i></a></h6>
-    </div>
-</div>
 <div class="row">
+  <div class = "reklama col-12 ">
+    <img src="{{ asset('front/assets/images/reklama.png') }} "  />
+  </div>
+</div>
 
+<div class = "row  p-5 shuttle_row">
+  <div class = "card_heading d-flex justify-content-between">
+    <span>შატლი</span>
+    <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
+
+  </div>
+<div class = "row justify-content-around">
+<div class="col-12 col-lg-4">
+<div class="card">
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">თბილისი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+  <div class="col-7"> <span class="card_main_price">3ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-4">
+<div class="card">
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">თბილისი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+  <div class="col-7"> <span class="card_main_price">15ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-4">
+<div class="card" >
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">თბილისი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+  <div class="col-7"> <span class="card_main_price">25ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+<div class = "row  p-5 shuttle_row">
+  <div class = "card_heading d-flex justify-content-between">
+    <span>შატლი</span>
+    <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
+
+  </div>
+<div class = "row justify-content-around">
+<div class="col-12 col-lg-4">
+<div class="card">
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/bus.png') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">თბილისი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+  <div class="col-7"> <span class="card_main_price">3ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-4">
+<div class="card">
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/bus.png') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">თბილისი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+  <div class="col-7"> <span class="card_main_price">15ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-4">
+<div class="card" >
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/bus.png') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">თბილისი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+  <div class="col-7"> <span class="card_main_price">25ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="row">
+  <div class = "reklama col-12">
+    <img class = "mt-0" src="{{ asset('front/assets/images/reklama2.png') }} "  />
+  </div>
+</div>
+
+
+<div class = "row  p-5 shuttle_row">
+  <div class = "card_heading d-flex justify-content-between">
+    <span>შატლი</span>
+    <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
+
+  </div>
+<div class = "row justify-content-around">
+<div class="col-12 col-lg-4">
+<div class="card">
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">თბილისი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+  <div class="col-7"> <span class="card_main_price">3ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-4">
+<div class="card">
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">თბილისი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+  <div class="col-7"> <span class="card_main_price">15ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-4">
+<div class="card" >
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">თბილისი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+  <div class="col-7"> <span class="card_main_price">25ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+ <!--
     @if($first)
-  <!--  <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6">
         <div class="news_block">
         <div class="row">
         <div class="col-12 col-md-4 col-lg-6">
@@ -41,7 +203,7 @@
         </div>
         </div>
     </div>
-  -->
+
   <div class="col-12 col-lg-4">
   <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="{{ asset($first->image) }}" alt="Card image cap">
@@ -58,7 +220,7 @@
     @endif
 
     @if($second)
-    <!--<div class="col-12 col-lg-6">
+    <div class="col-12 col-lg-6">
         <div class="news_block">
         <div class="row">
         <div class="col-12 col-md-4 col-lg-6">
@@ -76,7 +238,7 @@
         </div>
         </div>
     </div>
-  -->
+
   <div class="col-12 col-lg-4">
   <div class="card" style="width: 18rem;">
   <img class="card-img-top rounded img-fluid" src="{{ asset($second->image) }}" alt="Card image cap">
@@ -94,7 +256,7 @@
 
 
     @if($third)
-    <!--
+
     <div class="col-12  news_block last_news">
     <div class="row">
         <div class="col-12 col-lg-6">
@@ -110,7 +272,7 @@
         </div>
     </div>
     </div>
-  -->
+
   <div class="col-12 col-lg-4">
   <div class="card" style="width: 18rem;">
   <img class="card-img-top rounded img-fluid" src="{{ asset($third->image) }}" alt="Card image cap">
@@ -126,6 +288,7 @@
 </div>
 
     @endif
+  -->
     </div>
 </section>
 
