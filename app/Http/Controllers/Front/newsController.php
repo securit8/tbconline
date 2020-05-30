@@ -31,5 +31,11 @@ class newsController extends Controller{
         return view('front/news/fullstory',$data);
     }
 
+public function shuttle(){
+  $data['news'] = $this->news->orderBy('id','desc')->paginate(6);
+  $data['menu']= 2;
+
+  return view('front/news/shuttle',$data);
+}
 
 }

@@ -11,16 +11,15 @@
     <div class="container">
     <h1>@lang('front.news1')</h1>
     </div>
-
+<!--
     <div style = "padding:0;margin-bottom:100px;" class = "container-fluid">
       <img style="width:100%;height:500px;" src="{{ asset('front/assets/images/benetransport.jpg') }}"  alt="bene group image">
     </div>
-
+-->
 
 </div>
 <div class="container p-0">
   <div class="container-fluid p-0 py-3">
-    <span style="color:black;margin:10px 0;font-size:2.3rem;">ბენე შატლი</span>
     <div class="row py-3" >
 
 <!--
@@ -105,11 +104,11 @@
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);">
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5 class="card-title"><a href="{{ route('news.shuttle') }}">შატლი ქალაქის ტერიტორიაზე</a></h5>
+  <h5 class="card-title" style="min-height:50px;"><a href="{{ route('news.fullstory',['id'=>$n->id]) }}">გლდანი,დიდუბე,წერეთელი</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">3ლ-დან </span></div>
-  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.shuttle') }}">@lang('front.learn_more')</i></a></span></div>
+  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.fullstory',['id'=>$n->id]) }}">@lang('front.learn_more')</a></span></div>
   </div>
 </div>
 </div>
@@ -119,11 +118,11 @@
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);">
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5 class="card-title" style="min-height:50px;"><a href="">შატლი რეგიონებში</a></h5>
+  <h5 class="card-title" style="min-height:50px;"><a href="">ისანი,სამგორი,აეროპორტი</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">15ლ-დან</span></div>
-  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.shuttle') }}">@lang('front.learn_more')</i></a></span></div>
+  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.fullstory',['id'=>$n->id]) }}">@lang('front.learn_more')</a></span></div>
 
   </div>
 </div>
@@ -134,11 +133,11 @@
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);" >
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5 class="card-title" style="min-height:50px;"><a href="{{ route('news.shuttle') }}">შატლი VIP კლიენტებისთვის</a></h5>
+  <h5 class="card-title" style="min-height:50px;"><a href="">ლილო,აეროპორტი,ავლაბარი</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">25ლ-დან</span></div>
-  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.shuttle') }}">@lang('front.learn_more')</i></a></span></div>
+  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.fullstory',['id'=>$n->id]) }}">@lang('front.learn_more')</a></span></div>
 
   </div>
 </div>
@@ -153,18 +152,17 @@
 
 <div class="container p-0 py-3">
   <div class="container-fluid p-0">
-    <span style="color:black;margin:10px 0;font-size:2.3rem;">ერთ და მრავალდღიანი ტურები</span>
     <div class="row py-3" >
 
 <div class="col-12 col-lg-4" >
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);">
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5  style="min-height:50px;"class="card-title"><a href="{{ route('news.shuttle') }}">შატლი ქალაქის ტერიტორიაზე</a></h5>
+  <h5  style="min-height:50px;"class="card-title"><a href="{{ route('news.fullstory',['id'=>$n->id]) }}">გლდანი,დიდუბე,წერეთელი</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">3ლ-დან </span></div>
-  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.shuttle') }}">@lang('front.learn_more')</i></a></span></div>
+  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.fullstory',['id'=>$n->id]) }}">@lang('front.learn_more')</a></span></div>
 
   </div>
 </div>
@@ -175,11 +173,11 @@
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);">
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5 class="card-title" style="min-height:50px;"><a href="{{ route('news.shuttle') }}">შატლი რეგიონებში</a></h5>
+  <h5 class="card-title" style="min-height:50px;"><a href="">ისანი,სამგორი,აეროპორტი</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">15ლ-დან</span></div>
-  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.shuttle') }}">@lang('front.learn_more')</i></a></span></div>
+  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.fullstory',['id'=>$n->id]) }}">@lang('front.learn_more')</a></span></div>
 
   </div>
 </div>
@@ -190,11 +188,11 @@
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);">
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5 class="card-title" style="min-height:50px;"><a href="{{ route('news.shuttle') }}">შატლი VIP კლიენტებისთვის</a></h5>
+  <h5 class="card-title" style="min-height:50px;"><a href="">ლილო,აეროპორტი,ავლაბარი</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">25ლ-დან</span></div>
-  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.shuttle') }}">@lang('front.learn_more')</i></a></span></div>
+  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.fullstory',['id'=>$n->id]) }}">@lang('front.learn_more')</a></span></div>
 
   </div>
 </div>
@@ -208,18 +206,17 @@
 
 <div class="container p-0 py-3">
   <div class="container-fluid p-0">
-    <span style="color:black;margin:10px 0;font-size:2.3rem;">საზღვარგარეთ მოგზაურობა</span>
     <div class="row py-3" >
 
 <div class="col-12 col-lg-4" >
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);" >
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5 class="card-title" style="min-height:50px;"><a href="{{ route('news.shuttle') }}">შატლი ქალაქის ტერიტორიაზე</a></h5>
+  <h5 class="card-title" style="min-height:50px;"><a href="{{ route('news.fullstory',['id'=>$n->id]) }}">ლილო,აეროპორტი,ავლაბარი</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">3ლ-დან </span></div>
-  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.shuttle') }}">@lang('front.learn_more')</i></a></span></div>
+  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.fullstory',['id'=>$n->id]) }}">@lang('front.learn_more')</a></span></div>
 
   </div>
 </div>
@@ -230,11 +227,11 @@
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);">
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5 class="card-title" style="min-height:50px;"><a href="{{ route('news.shuttle') }}">შატლი რეგიონებში</a></h5>
+  <h5 class="card-title" style="min-height:50px;"><a href="">ისანი,სამგორი,აეროპორტი</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">15ლ-დან</span></div>
-  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.shuttle') }}">@lang('front.learn_more')</i></a></span></div>
+  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.fullstory',['id'=>$n->id]) }}">@lang('front.learn_more')</a></span></div>
 
   </div>
 </div>
@@ -245,11 +242,11 @@
 <div class="card" style="box-shadow: 0px 0px 51px -28px rgba(0,0,0,0.75);" >
 <img class="card-img-top" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Card image cap">
 <div class="card-body">
-  <h5 class="card-title" style="min-height:50px;"><a href="{{ route('news.shuttle') }}">შატლი VIP კლიენტებისთვის</a></h5>
+  <h5 class="card-title" style="min-height:50px;"><a href="">გლდანი,დიდუბე,წერეთელი</a></h5>
   <p class="card-text"></p>
   <div class="row align-items-end">
   <div class="col-6"> <span class="news_data">25ლ-დან</span></div>
-  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.shuttle') }}">@lang('front.learn_more')</i></a></span></div>
+  <div class="col-6 no_padding text-center"> <span class="news_more"><a style="padding:10px 5px;border:1px solid #c7c7c7;border-radius:10px;" href="{{ route('news.fullstory',['id'=>$n->id]) }}">@lang('front.learn_more')</a></span></div>
 
   </div>
 </div>

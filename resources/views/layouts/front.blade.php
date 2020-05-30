@@ -6,7 +6,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{ asset('front/assets/images/favicon.png') }}">
 	<title>@yield('title')</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet"  href="{{ asset('front/assets/css/style.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset('front/assets/css/style.css') }}">
   <link rel="stylesheet"  href="{{ asset('front/assets/css/fonts.css') }}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subse0 t=all" rel="stylesheet" type="text/css" />
@@ -19,10 +19,26 @@
 </head>
 <body>
 <header>
-  <div class="container header">
-    <div class="row">
-      <a class="col-2 main_logo" href="{{ route('index') }}"><!--<img src="{{ asset('front/assets/svg/logo_' . app()->getLocale().'.svg') }}">--></a>
-      <div class="col-8 col-sm-9">
+<div class = "container-fluid">
+	<div class = "row d-flex justify-content-center">
+	<div class ="col-3 text-center">
+    <a class="brand" href="#"><img src="{{ asset('front/assets/images/benebrand.png') }}"></a></a>
+	</div>
+	<div class = "col-5 text-center">
+			<i class="fas fa-search search_btn"></i>
+      <input class="search_input" type="search" placeholder="მოძებნე" aria-label="Search">
+	</div>
+
+	<div class = "col-3 text-center">
+      <button class="cart_btn" type="submit"><i class="fas fa-shopping-cart"></i><span>შესვლა</span></button>
+
+  </div>
+ </div>
+</div>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-9 col-sm-10 p-0">
           <nav>
             <div class="toggle">
               <span></span>
@@ -30,33 +46,40 @@
               <span></span>
               <span></span>
             </div>
-            <ul class="menu_list">
+            <ul class="menu_list justify-content-between">
               <li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">@lang('front.main')</a></li>
               <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">@lang('front.news')</a></li>
               <li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">@lang('front.cars')</a></li>
+							<li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">ივენთები</a></li>
               <li class=" @if($menu == 4) active @endif"><a href="{{ route('contributors.index') }}">@lang('front.conditions')</a></li>
               <li class=" @if($menu == 5) active @endif"><a href="{{ route('about.index') }}">@lang('front.about_us')</a></li>
             </ul>
           </nav>
         </div>
-        <div class="col-2 col-sm-1">
-          <div class="search-box">
-            <input class="search-txt" type="text" name="" placeholder="ძებნა...">
-            <a class="search-btn" href="#">
-            <img src="{{ asset('front/assets/images/nn.png') }}"></a>
-          </div>
+
+      <!--  enis archeva
+			  <div class="col-2 col-sm-1">
           @if(app()->getLocale() === 'en')
             <a href="{{langUrl('ka')}}" class="lang_href">KA</a>
           @else
             <a href="{{langUrl('en')}}" class="lang_href">EN</a>
           @endif
         </div>
+			-->
+
     </div>
   </div>
 </header>
 
 @yield('main')
 
+
+<div class="container-fluid footer one">
+	<div class="row">
+
+
+	</div>
+</div>
 
 <footer>
   <div class="container footer">

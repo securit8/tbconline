@@ -63,7 +63,7 @@
 </div>
 
 <div class="container p-0">
-  <h2 class = "mt-5 d-block">შატლი ქალაქის ტერიტორიაზე</h2><br>
+  <h2 class = "mt-5 d-block">შატლი ქალაქის ტერიტორიაზე:გლდანი,დიდუბე,წერეთელი</h2><br>
    <h4 class = "mt-5 d-block">სერვისის აღწერა:</h4>
         <!--<img class="inner_news_image" src="{{ asset('front/assets/images/shuttle.jpg') }}" width="300"  height="500" >-->
     <div class="row ">
@@ -74,52 +74,50 @@
       </div>
 
     </div>
-    <div class ="row my-5">
+    <div class ="row my-5 buy_ticket">
 <h2 class="my-5">ბილეთები</h2>
-<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;">
-  <div class = "col-4">
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;margin-bottom:20px;">
+  <div class = "col-4  ticket_padding_top">
     <p style="color:black;font-size:1.5rem;">ერთჯერადი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;">რაოდენობა:</p>
-    <input style="width:45px;height:40px;font-size:1.5rem;padding-left:10px;"type = "number" value="1">
+    <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
+
   </div>
-  <div class = "col-2">
+  <div class = "col-2 ticket_padding_top">
     <p style = "font-size:1.5rem;"><span style="color:black;">10</span>ლარი</p>
   </div>
-  <div class = "col-3">
+  <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
   </div>
 </div>
 
-<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;">
-  <div class = "col-4">
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;margin-bottom:20px;">
+  <div class = "col-4 ticket_padding_top">
     <p style="color:black;font-size:1.5rem;">ერთთვიანი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;">რაოდენობა:</p>
-    <input style="width:45px;height:40px;font-size:1.5rem;padding-left:10px;"type = "number" value="1">
+  <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
   </div>
-  <div class = "col-2">
+  <div class = "col-2 ticket_padding_top">
     <p style = "font-size:1.5rem;"><span style="color:black;">60</span>ლარი</p>
   </div>
-  <div class = "col-3">
+  <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
   </div>
 </div>
 
-<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;">
-  <div class = "col-4">
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;margin-bottom:20px;">
+  <div class = "col-4 ticket_padding_top">
     <p style="color:black;font-size:1.5rem;">ერთწლიანი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;">რაოდენობა:</p>
-    <input style="width:45px;height:40px;font-size:1.5rem;padding-left:10px;"type = "number" value="1">
+    <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
   </div>
-  <div class = "col-2">
+  <div class = "col-2 ticket_padding_top">
     <p style = "font-size:1.5rem;"><span style="color:black;">500</span>ლარი</p>
   </div>
-  <div class = "col-3">
+  <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
   </div>
 </div>
@@ -239,6 +237,25 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
+
+document.querySelectorAll(".circle").forEach((btn)=>{
+ btn.addEventListener("click",(e)=>{
+   let clicked = e.target;
+   let parent = clicked.parentElement.getElementsByTagName('span')[0];
+   let quantity = parent.childNodes[0].nodeValue;
+   if(clicked.classList.contains('minus')){
+     quantity--;
+   }
+   if(clicked.classList.contains('plus')){
+   quantity++;
+
+   }
+   if(quantity>5 || quantity<1){
+     quantity = 1;
+   }
+   parent.innerHTML = quantity;
+ });
+});
 </script>
 
 @endsection
