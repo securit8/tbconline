@@ -169,6 +169,8 @@ nav .active a {
   display: none;
 }
 
+
+
 .menu_list img {
   background-color: #ff3333;
   padding: 3px;
@@ -222,6 +224,8 @@ nav .active a {
 }
 /*end search box style*/
 
+
+
 .reklama img{
   margin: 80px 0 20px 0;
   max-width:100%;
@@ -265,6 +269,17 @@ nav .active a {
   transition: all 0.5s ease-in;
 }
 /*end change language style*/
+.main_banner_colage{
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.main_left_col .card img,.main_right_col .card img{
+  border-radius: 25px;
+}
+ .main_left_col img{
+   height:568px;
+ }
+
 #main_banner .btn{
   text-transform: uppercase;
   text-decoration: none;
