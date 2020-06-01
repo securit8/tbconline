@@ -26,7 +26,7 @@
 	</div>
 	<div class = "col-5 text-center">
 			<i class="fas fa-search search_btn"></i>
-      <input class="search_input" type="search" placeholder="ძიება სახელით,თარიღით,ადგილით..." aria-label="Search">
+      <input class="search_input" type="search" placeholder="ძიება სახელით, თარიღით, ადგილით..." aria-label="Search">
 	</div>
 
 	<div class = "col-3 text-center">

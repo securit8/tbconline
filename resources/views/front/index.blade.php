@@ -65,7 +65,7 @@
 <div class="card">
 <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/bus.png') }}" alt="Card image cap">
 <div class="card-body main_card_body p-0">
-  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">თბილისი</a></h5>
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">ავტო ტრანსფერი</a></h5>
   <div class="row align-items-end m-0 py-2">
 
   <div class="col-7"> <span class="card_main_price">3</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
@@ -81,7 +81,7 @@
 <div class="card">
 <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/concert4.jpg') }}" alt="Card image cap">
 <div class="card-body main_card_body p-0">
-  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">ივენთი</a></h5>
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">კონცერტი</a></h5>
   <div class="row align-items-end m-0 py-2">
 
   <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
@@ -130,7 +130,7 @@
 <div class="card">
 <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/turi1.jpg') }}" alt="Card image cap">
 <div class="card-body main_card_body p-0">
-  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">ტურები</a></h5>
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">ტური ბათუმში</a></h5>
   <div class="row align-items-end m-0 py-2">
 
   <div class="col-7"> <span class="card_main_price">30</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
@@ -146,7 +146,7 @@
 <div class="card">
 <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/fari.jpg') }}" alt="Card image cap">
 <div class="card-body main_card_body p-0">
-  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">ფილმი</a></h5>
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">მარტვილის კანიონი</a></h5>
   <div class="row align-items-end m-0 py-2">
 
   <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
@@ -162,7 +162,7 @@
 <div class="card" >
 <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/mogzauroba.jpg') }}" alt="Card image cap">
 <div class="card-body main_card_body p-0">
-  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">მოგზაურობა</a></h5>
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">ტური ვაშლოვანში</a></h5>
   <div class="row align-items-end m-0 py-2">
 
   <div class="col-7"> <span class="card_main_price">655</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
