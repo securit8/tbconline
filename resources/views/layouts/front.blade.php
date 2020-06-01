@@ -74,6 +74,13 @@
 @yield('main')
 
 
+<div class="container-fluid footer one">
+	<div class="row">
+
+
+	</div>
+</div>
+
 <footer>
   <div class="container footer">
     <div class="row">
