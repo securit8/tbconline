@@ -26,7 +26,7 @@
 	</div>
 	<div class = "col-5 text-center">
 			<i class="fas fa-search search_btn"></i>
-      <input class="search_input" type="search" placeholder="მოძებნე" aria-label="Search">
+      <input class="search_input" type="search" placeholder="ძიება სახელით,თარიღით,ადგილით..." aria-label="Search">
 	</div>
 
 	<div class = "col-3 text-center">
@@ -74,24 +74,45 @@
 @yield('main')
 
 
-<div class="container-fluid footer one">
-	<div class="row">
+<div class="container-fluid bg">
+<div class="container footer one">
+	<div class="row justify-content-between">
 
+<div class = "col-4">
+	<h5>სოციალრი ქსელი</h5>
+	<img src="{{ asset('front/assets/images/fblink.PNG') }}" alt = "picture social"/>
 
+</div>
+
+<div class = "col-4">
+	<h5>ჩვენს შესახებ</h5>
+	<ul>
+		<li><a href="">ვინ ვართ ჩვენ</a></li>
+		<li><a href="">წესები და პირობები</a></li>
+		<li><a href="">სხვა სერვისები</a></li>
+	</ul>
+</div>
+
+<div class = "col-4">
+<h5>კონტაქტი</h5>
+<ul>
+	<li><a href="">ონლაინ დახმარება</a></li>
+	<li><a href="">bene@bene-exclusive.com</a></li>
+	<li><a href="">(+995) 577 777 777</a></li>
+</ul>
 	</div>
+</div>
+</div>
 </div>
 
 <footer>
   <div class="container footer">
     <div class="row">
-    <div class="col-12 col-sm-5 col-lg-4 soc_icon">
-      <span class="fb"><a href="https://www.fb.com" target="_blank">Facebook</a></span>
-      <span class="in"><a href="https://www.instagram.com" target="_blank">Instagram</a></span>
-      <span class="tw"><a href="https://www.twitter.com" target="_blank">Twitter</a></span>
+    <div class="col-5 col-sm-5 col-lg-4 soc_icon">
+      <span class = "copy_span"><span ="copy_icon"><i class="far fa-copyright"></i></span>ყველა უფლება დაცულია.</span>
     </div>
-    <div class="col-12 col-sm-7 col-lg-8  mail_block">
-      <span>@lang('front.phone'): (+995) 577 308 408</span>
-      <span>@lang('front.mail'): L.Gelashvili@Gmail.com</span>
+    <div class="col-7 col-sm-7 col-lg-8  mail_block">
+      <a class="footer_brand" href="#"><img src="{{ asset('front/assets/images/benebrand.png') }}"></a></a>
     </div>
   </div>
 </div>
