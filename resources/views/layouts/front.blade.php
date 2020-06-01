@@ -22,7 +22,7 @@
 <div class = "container-fluid">
 	<div class = "row d-flex justify-content-center">
 	<div class ="col-3 text-center">
-    <a class="brand" href="#"><img src="{{ asset('front/assets/images/benebrand.png') }}"></a></a>
+    <a class="brand" href="{{ route('index') }}"><img src="{{ asset('front/assets/images/benebrand.png') }}"></a>
 	</div>
 	<div class = "col-5 text-center">
 			<i class="fas fa-search search_btn"></i>
