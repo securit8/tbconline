@@ -30,10 +30,12 @@
       <div class="card">
       <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
       <div class="card-body main_card_body p-0">
-        <h5 class="card-title text-center m-1"><a href="">თბილისი</a></h5>
+        <h5 class="card-title text-center m-1">თბილისი</h5>
         <div class="row align-items-end m-0 py-2">
+
         <div class="col-7"> <span class="card_main_price">3</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
-        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+       <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
         </div>
       </div>
       </div>
@@ -46,8 +48,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">რეგიონები</a></h5>
         <div class="row align-items-end m-0 py-2">
+
         <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
-        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+          <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
         </div>
       </div>
       </div>
@@ -60,8 +64,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">VIP</a></h5>
         <div class="row align-items-end m-0 py-2">
+
         <div class="col-7"> <span class="card_main_price">25</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
-        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+          <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
         </div>
       </div>
       </div>
@@ -88,8 +94,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">კახეთი</a></h5>
         <div class="row align-items-end m-0 py-2">
+
         <div class="col-7"> <span class="card_main_price">99</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
         <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
         </div>
       </div>
       </div>
@@ -102,8 +110,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">რაჭა</a></h5>
         <div class="row align-items-end m-0 py-2">
+
         <div class="col-7"> <span class="card_main_price">255</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
         <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
         </div>
       </div>
       </div>
@@ -116,8 +126,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">რაჭა</a></h5>
         <div class="row align-items-end m-0 py-2">
+
         <div class="col-7"> <span class="card_main_price">25</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
-        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+          <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
         </div>
       </div>
       </div>
@@ -146,8 +158,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">რაჭა</a></h5>
         <div class="row align-items-end m-0 py-2">
+
       <div class="col-7"> <span class="card_main_price">285</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
-        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+          <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
         </div>
       </div>
       </div>
@@ -160,8 +174,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">რეგიონები</a></h5>
         <div class="row align-items-end m-0 py-2">
+
       <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
-        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+          <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
         </div>
       </div>
       </div>
@@ -174,8 +190,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">სვანეთი</a></h5>
         <div class="row align-items-end m-0 py-2">
+
       <div class="col-7"> <span class="card_main_price">200</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
-        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+          <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
         </div>
       </div>
       </div>

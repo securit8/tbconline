@@ -47,7 +47,7 @@
         <img class="d-block w-100" src="{{ asset('front/assets/images/shuttle1.jpg') }}" alt="Third slide">
         <div class="carousel-caption d-none d-md-block">
           <h2>Vip klassen vehicles only for special clients</h2>
-          <h5>Perfect for businness meatings!</h5>
+          <h5>Perfect for businness meetings!</h5>
         </div>
       </div>
     </div>
