@@ -56,7 +56,7 @@
 
 <div class = "row  p-5 shuttle_row bg-white">
   <div class = "card_heading d-flex justify-content-between">
-    <span>პოპულარული</span>
+    <span>პოპულარული ღონისძიებები</span>
     <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
 
   </div>
@@ -114,7 +114,7 @@
 
 <div class = "row  p-5 shuttle_row bg-white">
   <div class = "card_heading d-flex justify-content-between">
-    <span>ახალი</span>
+    <span>ახალი ღონისძიებები</span>
     <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
 
   </div>
