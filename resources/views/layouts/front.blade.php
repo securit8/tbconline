@@ -49,7 +49,7 @@
             <ul class="menu_list justify-content-between">
               <li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">მთავარი</a></li>
               <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">ტრანსპორტი</a></li>
-              <li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">ივენთი</a></li>
+              <li class=" @if($menu == 3) active @endif"><a href="news/shuttlle">ივენთი</a></li>
 							<li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">კონცერტი</a></li>
               <li class=" @if($menu == 4) active @endif"><a href="{{ route('contributors.index') }}">სპორტი</a></li>
               <li class=" @if($menu == 5) active @endif"><a href="{{ route('about.index') }}">სხვა</a></li>
