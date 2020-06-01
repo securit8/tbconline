@@ -47,12 +47,12 @@
               <span></span>
             </div>
             <ul class="menu_list justify-content-between">
-              <li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">@lang('front.main')</a></li>
-              <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">@lang('front.news')</a></li>
-              <li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">@lang('front.cars')</a></li>
-							<li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">ივენთები</a></li>
-              <li class=" @if($menu == 4) active @endif"><a href="{{ route('contributors.index') }}">@lang('front.conditions')</a></li>
-              <li class=" @if($menu == 5) active @endif"><a href="{{ route('about.index') }}">@lang('front.about_us')</a></li>
+              <li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">მთავარი</a></li>
+              <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">ტრანსპორტი</a></li>
+              <li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">ივენთი</a></li>
+							<li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">კონცერტი</a></li>
+              <li class=" @if($menu == 4) active @endif"><a href="{{ route('contributors.index') }}">სპორტი</a></li>
+              <li class=" @if($menu == 5) active @endif"><a href="{{ route('about.index') }}">სხვა</a></li>
             </ul>
           </nav>
         </div>
@@ -79,7 +79,7 @@
 	<div class="row justify-content-between">
 
 <div class = "col-4">
-	<h5>სოციალრი ქსელი</h5>
+	<h5>სოციალური ქსელი</h5>
 	<img src="{{ asset('front/assets/images/fblink.PNG') }}" alt = "picture social"/>
 
 </div>
@@ -98,7 +98,7 @@
 <ul>
 	<li><a href="">ონლაინ დახმარება</a></li>
 	<li><a href="">bene@bene-exclusive.com</a></li>
-	<li><a href="">(+995) 577 777 777</a></li>
+	<li><a href="">(+995) 322 052 100</a></li>
 </ul>
 	</div>
 </div>
