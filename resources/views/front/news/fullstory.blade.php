@@ -21,7 +21,7 @@
     </div>
 </div>
 
-<div class = "container-fluid p-0" style = "margin-top:-200px;">
+<div class = "container-fluid p-0" style = "margin-top:-152px;">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -38,7 +38,7 @@
       <div class="carousel-item active">
         <img class="d-block w-100" src="{{ asset('front/assets/images/transfer2.jpg') }}" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
-        
+
         </div>
       </div>
 
