@@ -6,6 +6,11 @@
 .news_block, .about_center_content,  .about_bottom_content, .contributors_text, .contr_text, .popup_content, .inner_news_text, .packet_text, .scholarship_text, .student_block_text {
   font-family: 'BPG2017DejaVuSans';
 }
+
+body{
+  background-color: #F8F8F8;
+}
+
 .toggle {
   position: absolute;
   top: 44%;
@@ -75,7 +80,7 @@ col-3,col-6{
   height:50px!important;
 }
 header {
-  background-color: #181818;
+  background-color: #252525;
   height:75px;
   line-height:;
   position: fixed;
@@ -92,30 +97,31 @@ header {
 
 .search_btn{
 position:absolute;
-top:27px;left:20px;
+top:24px;left:20px;
 z-index: 1;
 color:#878787;
-font-size: 1.5rem;
+font-size: 1.3rem;
 
 
 }
 .search_input{
   position: relative;
   margin:20px 0;
-  padding:5px;
+  padding:2px 0;
   width:100%;
   border-radius:20px;
   background-color:#E2E2E2;
   padding-left: 35px;
   border:none;
-
+ font-size: 0.93rem;
 }
 
 .cart_btn{
   margin:20px 0;
-  padding:5px 10px;
+  padding:2px 20px;
   border-radius: 20px;
   border:none;
+  font-size: 0.93rem;
 
 }
 .cart_btn span{
@@ -125,10 +131,12 @@ font-size: 1.5rem;
   margin-right:7px;
 }
 .menu_list{
+  right:0;
+  top:75px;
   text-align: center;
   position: fixed;right:0;
   width:80%;
-  padding:6px 100px 6px 0;
+  padding:3px 100px 3px 0;
   border-bottom-left-radius: 25px;
   z-index: 3;
   background-color:white;
@@ -168,6 +176,8 @@ nav .active a {
 .toggle {
   display: none;
 }
+
+
 
 .menu_list img {
   background-color: #ff3333;
@@ -222,6 +232,8 @@ nav .active a {
 }
 /*end search box style*/
 
+
+
 .reklama img{
   margin: 80px 0 20px 0;
   max-width:100%;
@@ -265,6 +277,20 @@ nav .active a {
   transition: all 0.5s ease-in;
 }
 /*end change language style*/
+
+.main_banner_colage{
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.main_left_col .card img,.main_right_col .card img{
+  border-radius: 25px;
+}
+ .main_left_col img{
+   height:568px;
+ }
+
+
+
 #main_banner .btn{
   text-transform: uppercase;
   text-decoration: none;
@@ -385,7 +411,7 @@ nav .active a {
 
 .card_heading{
   position:absolute;
-  top:-47px;
+  top:-43px;
   left:30px;
   background-color: black;
   width:350px;
@@ -395,7 +421,9 @@ nav .active a {
 
 }
 .card_heading span{
-  font-size: 1.6rem;
+  font-size: 1rem;
+  padding-top:5px;
+  padding-left:5px;
 }
 
 .card_heading img{
@@ -404,15 +432,22 @@ nav .active a {
   margin: 5px 10px 0 10px;;
 }
 .card_main_price{
-  font-size: 1.2rem;
-  color:#C7C7C7;
+  font-size: 2rem;
+  color:#999999;
+  font-weight: 600;
+}
+
+.card_main_valut{
+  font-size: 1.3rem;
+  color:#999999;
+  font-weight: 600;
 }
 
 .card{
   border:none;
-  -webkit-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.3);
+box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.3);
 border-radius:25px;
 }
 .card .card-title a{
@@ -428,9 +463,9 @@ border-radius:25px;
 }
 
 .shuttle_row{
--webkit-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.3);
+box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.3);
 border-radius: 25px;
 margin:0 -15px;
 margin:80px auto;
@@ -1331,13 +1366,36 @@ iframe {
   overflow: hidden;
 }
 /*--------------------------end sound icon style-------------------*/
-.one{
-background-color: #F7F7F7;
+.bg{
+  background-color: #EEEEEE;
 }
+.one{
+padding:30px 0;
+margin:0 auto;
+}
+
+.one ul li{
+  list-style: none;
+}
+
+.one ul{
+  padding:0;
+}
+
+.one ul li a{
+  text-decoration: none;
+  color:#5F5E6F;
+  font-size: 0.8rem;
+}
+
+.one h5{
+  font-size: 1rem;
+}
+
 footer {
   background-color:#181818;
-  padding: 23px 0;
-  height: 70px;
+
+  height: 30px;
 }
 footer a, span {
   color: #fff
@@ -1360,7 +1418,18 @@ footer .tw a:hover {
 footer .mail_block {
   text-align: right;
 }
+.footer_brand img{
+  width:60px;
+  height:30px;
+}
 
+.copy_span{
+  font-size: 0.7rem;
+}
+
+.copy_icon{
+  padding:12px 5px 5px 5px;
+}
 
 
 
