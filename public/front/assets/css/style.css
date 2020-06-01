@@ -256,20 +256,41 @@ nav .active a {
   text-align:center!important;
   line-height:0px!important;
   border-radius:50%!important;
-  width:35px!important;
-  height:35px!important;
+  width:25px!important;
+  height:25px!important;
   padding-bottom: 7px!important;
+}
+.circle2{
+  color:black!important;
+  background-color: white!important;
+  border:1px solid #c7c7c7!important;
+  display:inline-block!important;
+  text-align:center!important;
+  line-height:0px!important;
+  border-radius:50%!important;
+  width:25px!important;
+  height:25px!important;
+  padding-bottom: 7px!important;
+  padding-right: 5px!important;
+  text-align: center;
 }
 .circle:hover{
   background-color: #F1F3F4!important;
 }
+.plus{
+  padding: 0!important;
+  padding-bottom: 5px!important;
+}
+
+.btn.btn-success{
+  font-size: 0.7rem;
+  padding:4px 8px;
+  margin-top: 7px;
+}
 .buy_ticket p{
   margin:0!important;
 }
-.ticket_padding_top{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 
 .lang_href:hover {
   text-decoration: none;

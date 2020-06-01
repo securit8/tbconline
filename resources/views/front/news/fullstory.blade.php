@@ -26,30 +26,22 @@
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/transfer1.jpg') }}" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
-          <h2>Most popular exotic car rental</h2>
-          <h5>Great deals!</h5>
+
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/transfer2.jpg') }}" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
-          <h2>Most popular exotic car rental</h2>
-          <h5>Great deals!</h5>
+        
         </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/shuttle1.jpg') }}" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>Vip klassen vehicles only for special clients</h2>
-          <h5>Perfect for businness meetings!</h5>
-        </div>
-      </div>
+
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -84,46 +76,47 @@
     </div>
     <div class ="row my-5 buy_ticket">
 <h2 class="my-5">ბილეთები</h2>
-<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;margin-bottom:20px;">
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-4  ticket_padding_top">
-    <p style="color:black;font-size:1.5rem;">ერთჯერადი მგზავრობა</p>
+    <p style="color:black;font-size:1rem;padding-top:5px;">ერთჯერადი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button class="circle circle2 plus">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1.5rem;"><span style="color:black;">10</span>ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">10</span>ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
   </div>
 </div>
 
-<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;margin-bottom:20px;">
-  <div class = "col-4 ticket_padding_top">
-    <p style="color:black;font-size:1.5rem;">ერთთვიანი მგზავრობა</p>
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+  <div class = "col-4  ticket_padding_top">
+    <p style="color:black;font-size:1rem;padding-top:5px;">ერთთვიანი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-  <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button class="circle circle2 plus">+</button></p>
+
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1.5rem;"><span style="color:black;">60</span>ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">200</span>ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
   </div>
 </div>
-
-<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;margin-bottom:20px;">
-  <div class = "col-4 ticket_padding_top">
-    <p style="color:black;font-size:1.5rem;">ერთწლიანი მგზავრობა</p>
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+  <div class = "col-4  ticket_padding_top">
+    <p style="color:black;font-size:1rem;padding-top:5px;">ერთწლიანი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button class="circle circle2 plus">+</button></p>
+
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1.5rem;"><span style="color:black;">500</span>ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">600</span>ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
