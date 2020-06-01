@@ -19,7 +19,7 @@
         </div>
       </div>
 
-      <div class = "row  p-5 shuttle_row">
+      <div class = "row  p-5 shuttle_row bg-white">
         <div class = "card_heading d-flex justify-content-between">
           <span>შატლი</span>
           <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
@@ -32,8 +32,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1">თბილისი</h5>
         <div class="row align-items-end m-0 py-2">
-        <div class="col-7"> <span class="card_main_price">3ლ</span><span class="news_data">-დან</span></div>
-          <a href="news/shuttle"><div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
+        <div class="col-7"> <span class="card_main_price">3</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
         </div>
       </div>
       </div>
@@ -46,8 +48,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">რეგიონები</a></h5>
         <div class="row align-items-end m-0 py-2">
-        <div class="col-7"> <span class="card_main_price">15ლ</span><span class="news_data">-დან</span></div>
-          <a href="news/shuttle"><div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
+        <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
         </div>
       </div>
       </div>
@@ -60,8 +64,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">VIP</a></h5>
         <div class="row align-items-end m-0 py-2">
-        <div class="col-7"> <span class="card_main_price">25ლ</span><span class="news_data">-დან</span></div>
-          <a href="news/shuttle"><div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
+        <div class="col-7"> <span class="card_main_price">25</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
         </div>
       </div>
       </div>
@@ -75,7 +81,7 @@
 
 
 
-      <div class = "row  p-5 shuttle_row">
+      <div class = "row  p-5 shuttle_row bg-white">
         <div class = "card_heading d-flex justify-content-between">
           <span>ტურები</span>
           <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
@@ -88,8 +94,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">თბილისი</a></h5>
         <div class="row align-items-end m-0 py-2">
-        <div class="col-7"> <span class="card_main_price">3ლ</span><span class="news_data">-დან</span></div>
-          <a href="news/shuttle"><div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
+        <div class="col-7"> <span class="card_main_price">3</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
         </div>
       </div>
       </div>
@@ -102,7 +110,7 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">რეგიონები</a></h5>
         <div class="row align-items-end m-0 py-2">
-        <div class="col-7"> <span class="card_main_price">15ლ</span><span class="news_data">-დან</span></div>
+        <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
         <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
         </div>
       </div>
@@ -116,8 +124,10 @@
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">VIP</a></h5>
         <div class="row align-items-end m-0 py-2">
-        <div class="col-7"> <span class="card_main_price">25ლ</span><span class="news_data">-დან</span></div>
-          <a href="news/shuttle"><div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
+        <div class="col-7"> <span class="card_main_price">25</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
         </div>
       </div>
       </div>
@@ -133,7 +143,7 @@
       </div>
 
 
-      <div class = "row  p-5 shuttle_row">
+      <div class = "row  p-5 shuttle_row bg-white">
         <div class = "card_heading d-flex justify-content-between">
           <span>მოგზაურობა</span>
           <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
@@ -142,12 +152,14 @@
       <div class = "row justify-content-around">
       <div class="col-12 col-lg-4">
       <div class="card">
-      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
+      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/mogzauroba.jpg') }}" alt="Card image cap">
       <div class="card-body main_card_body p-0">
-        <h5 class="card-title text-center m-1"><a href="">თბილისი</a></h5>
+        <h5 class="card-title text-center m-1"><a href="">რაჭა</a></h5>
         <div class="row align-items-end m-0 py-2">
-        <div class="col-7"> <span class="card_main_price">3ლ</span><span class="news_data">-დან</span></div>
-          <a href="news/shuttle"><div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
+      <div class="col-7"> <span class="card_main_price">285</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
         </div>
       </div>
       </div>
@@ -156,12 +168,14 @@
 
       <div class="col-12 col-lg-4">
       <div class="card">
-      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
+      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/mogzauroba4.jpg') }}" alt="Card image cap">
       <div class="card-body main_card_body p-0">
         <h5 class="card-title text-center m-1"><a href="">რეგიონები</a></h5>
         <div class="row align-items-end m-0 py-2">
-        <div class="col-7"> <span class="card_main_price">15ლ</span><span class="news_data">-დან</span></div>
-          <a href="news/shuttle"><div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
+      <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
         </div>
       </div>
       </div>
@@ -170,12 +184,14 @@
 
       <div class="col-12 col-lg-4">
       <div class="card" >
-      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
+      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/mogzauroba3.jpg') }}" alt="Card image cap">
       <div class="card-body main_card_body p-0">
-        <h5 class="card-title text-center m-1"><a href="">VIP</a></h5>
+        <h5 class="card-title text-center m-1"><a href="">სვანეთი</a></h5>
         <div class="row align-items-end m-0 py-2">
-        <div class="col-7"> <span class="card_main_price">25ლ</span><span class="news_data">-დან</span></div>
-          <a href="news/shuttle"><div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
+      <div class="col-7"> <span class="card_main_price">200</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+        <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
         </div>
       </div>
       </div>
