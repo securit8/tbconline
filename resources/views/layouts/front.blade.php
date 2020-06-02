@@ -46,7 +46,7 @@
               <span></span>
               <span></span>
             </div>
-            <ul class="menu_list justify-content-around">
+            <ul id="menu_list" class="menu_list justify-content-between">
               <li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">მთავარი</a></li>
               <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">ტრანსპორტი</a></li>
               <li class=" @if($menu == 3) active @endif"><a href="news/shuttlle">ივენთი</a></li>
@@ -81,6 +81,17 @@
 <div class = "col-4">
 	<h5>სოციალური ქსელი</h5>
 	<img src="{{ asset('front/assets/images/fblink.PNG') }}" alt = "picture social"/>
+	<div class ="col-6 d-flex justify-content-around pl-0 pt-2 fblink_icon">
+		<div class = "col-3">
+			<i class="fab fa-instagram fa-2x text-secondary"></i>
+		</div>
+		<div class = "col-3">
+		  <i class="fab fa-twitter fa-2x text-secondary"></i>
+		</div>
+		<div class = "col-3">
+		  <i class="fab fa-linkedin-square fa-2x text-secondary"></i>
+		</div>
+	</div>
 
 </div>
 
@@ -143,6 +154,17 @@
 <link rel="stylesheet"  href="{{ asset('front/assets/css/video_popup.css') }}">
 
 @yield('script')
-
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("menu_list").style.visibility = "visible";
+  } else {
+    document.getElementById("menu_list").style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 </body>
 </html>
