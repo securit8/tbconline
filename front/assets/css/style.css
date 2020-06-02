@@ -131,11 +131,12 @@ font-size: 1.3rem;
   margin-right:7px;
 }
 .menu_list{
-  right:80px;
+  right:50%;
+  transform:translateX(50%);
   top:75px;
   text-align: center;
   position: fixed;
-  width:71%;
+  width:60%;
   padding:3px 0 3px 0;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -1414,6 +1415,9 @@ margin:0 auto;
   font-size: 1rem;
 }
 
+
+
+
 footer {
   background-color:#181818;
 
@@ -1549,7 +1553,6 @@ footer .mail_block {
     cursor: pointer;
   }
   .menu_list {
-    display: none;
     position: fixed;
     top: 70px;
     right: 0;
@@ -1559,6 +1562,7 @@ footer .mail_block {
     background-color: rgb(8, 7, 7, 0.85);
     color: #fff;
     z-index: 1000;
+    transition: all 1s linear;
   }
   .active {
     display: block;

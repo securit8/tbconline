@@ -131,12 +131,12 @@ font-size: 1.3rem;
   margin-right:7px;
 }
 .menu_list{
-  right:0;
+  right:80px;
   top:75px;
   text-align: center;
   position: fixed;right:0;
-  width:80%;
-  padding:3px 100px 3px 0;
+  width:72%;
+  padding:3px 0 3px 0;
   border-bottom-left-radius: 25px;
   z-index: 3;
   background-color:white;
@@ -147,7 +147,7 @@ font-size: 1.3rem;
 }
 .menu_list li {
   display: inline;
-  padding: 0 25px;
+  padding: 0 32px;
   padding-top: 3px;
   font-size: 12px;
   border-right:2px solid #C6C6C6;
