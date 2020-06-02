@@ -46,7 +46,7 @@
               <span></span>
               <span></span>
             </div>
-            <ul class="menu_list justify-content-between">
+            <ul class="menu_list justify-content-around">
               <li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">მთავარი</a></li>
               <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">ტრანსპორტი</a></li>
               <li class=" @if($menu == 3) active @endif"><a href="news/shuttlle">ივენთი</a></li>
@@ -96,9 +96,9 @@
 <div class = "col-4">
 <h5>კონტაქტი</h5>
 <ul>
-	<li><a href="">ონლაინ დახმარება</a></li>
-	<li><a href="">bene@bene-exclusive.com</a></li>
-	<li><a href="">(+995) 322 052 100</a></li>
+	<li><a href=""><i class="fab fa-facebook-messenger mx-1"></i>ონლაინ დახმარება</a></li>
+	<li><a href=""><i class="fas fa-envelope mx-1"></i>bene@bene-exclusive.com</a></li>
+	<li><a href=""><i class="fas fa-phone-volume mx-1 pl-1"></i>(+995) 322 052 100</a></li>
 </ul>
 	</div>
 </div>
