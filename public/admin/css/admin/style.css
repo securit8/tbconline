@@ -1,0 +1,101 @@
+.admin-mainpage-container{
+    width:80%;
+    margin:auto;
+}
+
+.admin-mainpage-container img{
+    width:100%;
+}
+
+.mainPageTop{
+    margin:10px 0 10px 0;
+}
+
+
+.btn-lang{
+    background-color: #f0f0f0;
+    color: rgba(0,0,0,0.8);
+}
+
+.btn-lang:hover{
+    background-color: grey;
+    color:white !important;
+}
+
+.btn-lang-active{
+border:1px solid grey !important;
+}
+
+.about-flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.about-flex-item{
+    width:30%;
+}
+
+.about-image-bg{
+    background-color: mintcream !important;
+}
+
+.about-text-item{
+    border: 1px solid rgba(0,0,100,0.3);
+    margin-top: 40px;
+    border-bottom: 0px;
+}
+
+.about-text-item h3{
+    color:black;
+    width:100%;
+    background-color: rgba(0,0,0,0.2 );
+    margin:0;
+    padding:10px;
+}
+
+.about-text-item p{
+    width:100%;
+    background-color: rgba(0,0,0,0.1);
+    margin:0;
+    padding:10px;
+}
+
+.about-text-btn{
+    display: inline-block;
+    background-color: rgba(0,0,0,0.1);
+    margin:0;
+    padding:10px;
+    border-left: 1px solid rgba(0,0,100,0.3);
+
+}
+
+.thumbnail{
+    margin-bottom:5px !important;
+}
+
+
+.contributors_admin{
+    border:1px solid grey;
+    padding:10px;
+    margin-bottom: 25px;
+}
+
+.contributors_admin img{
+    width:30%;
+    float:left;
+    padding: 10px;
+    margin: 5px 10px 10px 5px;
+
+}
+
+.contributor_admin_name{
+    padding: 15px 5px 15px 15px;
+    border-bottom: 1px solid grey;
+}
+
+.contributor-for-buttons{
+    border-top: 1px solid grey;
+    padding-top:15px;
+}
