@@ -21,35 +21,27 @@
     </div>
 </div>
 
-<div class = "container-fluid p-0" style = "margin-top:-200px;">
+<div class = "container-fluid p-0" style = "margin-top:-152px;">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/transfer1.jpg') }}" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
-          <h2>Most popular exotic car rental</h2>
-          <h5>Great deals!</h5>
+
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/shuttle.jpg') }}" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/transfer2.jpg') }}" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
-          <h2>Most popular exotic car rental</h2>
-          <h5>Great deals!</h5>
+
         </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/shuttle1.jpg') }}" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>Vip klassen vehicles only for special clients</h2>
-          <h5>Perfect for businness meatings!</h5>
-        </div>
-      </div>
+
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -68,54 +60,63 @@
         <!--<img class="inner_news_image" src="{{ asset('front/assets/images/shuttle.jpg') }}" width="300"  height="500" >-->
     <div class="row ">
       <div class="col-md-6 pt-3 mt-3 ml-3" style="border-top:1px solid #c7c7c7;">
-       <p>დღეს უკვე Lorem Ipsum-პასაჟის უამრავი ვერსია არსებობს. მათი დიდი ნაწილი ხუმრობით არის შეცვლილი, ბევრი კი უბრალოდ სიტყვების შემთხვევითი გენერირებით დაიწერა. ინტერნეტში არსებული გენერატორები, როგორც წესი, წინასწარ განსაზღვრული ტექსტის ნაგლეჯს იმეორებენ ხოლმე, ამიტომ ეს პირველი ნამდვილი გენერატორია. იგი რთული და მართებული სტრუქტურის წინადადებების ასაწყობად 200-მდე ლათინური სიტყვისგან შემდგარ ლექსიკონს იყენებს. შედეგად მიიღება ტექსტი, რომელიც ვიზუალურად მაქსიმალურად ახლოსაა რეალურთან. გენერირებული Lorem Ipsum არასოდეს არ არის გამეორებადი, შემთხვევითი სიტყვების ან ხუმრობების შემცველი.
+       <p>Bene Exclusive გთავაზობთ მაღალი ხარისხის კომფორტულ მომსახურებას Mercedes Benz-ისა და Toyota-ს ფირმის უახლესი მოდელების ავტომობილებით.</p>
+        <p></p>
+        <p>მაღალკვალიფიციური მძღოლები საუბრობენ რუსულ და ინგლისურ ენებზე.</p>
+        <p></p>
+        <p>მგზავრების ჯანმრთელობა და ბარგი სრულად არის დაზღვეული.</p>
+        <p></p>
+        <p>მომსახურებაში გათვალისწინებულია:</p>
 
-</p>
+        <p>	&#9830; ჯანმრთელობისა და სიცოცხლის დაზღვევა;</p>
+        <p>	&#9830; მაღალსიჩქარიანი უსადენო ინტერნეტი;</p>
+        <p>	&#9830; 0,5 ლ. წყალი თითოეულ მგზავრზე.</p>
       </div>
 
     </div>
     <div class ="row my-5 buy_ticket">
 <h2 class="my-5">ბილეთები</h2>
-<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;margin-bottom:20px;">
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-4  ticket_padding_top">
-    <p style="color:black;font-size:1.5rem;">ერთჯერადი მგზავრობა</p>
+    <p style="color:black;font-size:1rem;padding-top:5px;">ერთჯერადი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button class="circle circle2 plus">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1.5rem;"><span style="color:black;">10</span>ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">10</span>ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
   </div>
 </div>
 
-<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;margin-bottom:20px;">
-  <div class = "col-4 ticket_padding_top">
-    <p style="color:black;font-size:1.5rem;">ერთთვიანი მგზავრობა</p>
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+  <div class = "col-4  ticket_padding_top">
+    <p style="color:black;font-size:1rem;padding-top:5px;">ერთთვიანი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-  <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button class="circle circle2 plus">+</button></p>
+
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1.5rem;"><span style="color:black;">60</span>ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">200</span>ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
   </div>
 </div>
-
-<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:5px 0;border-radius:5px;margin-bottom:20px;">
-  <div class = "col-4 ticket_padding_top">
-    <p style="color:black;font-size:1.5rem;">ერთწლიანი მგზავრობა</p>
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+  <div class = "col-4  ticket_padding_top">
+    <p style="color:black;font-size:1rem;padding-top:5px;">ერთწლიანი მგზავრობა</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:2rem;">1</span><button class="circle plus">+</button></p>
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button class="circle circle2 plus">+</button></p>
+
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1.5rem;"><span style="color:black;">500</span>ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">600</span>ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>

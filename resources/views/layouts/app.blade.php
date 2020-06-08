@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Scholarship.Ge</title>
+    <title>shuttle</title>
 
     <!-- Styles -->
     <link href="{{ asset('admin/css/app.css') }}" rel="stylesheet">
@@ -29,7 +29,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        Scholarship.Ge
+                        biletebi.net
                     </a>
                 </div>
 

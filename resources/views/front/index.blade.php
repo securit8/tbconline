@@ -11,74 +11,174 @@
 @section('main')
 
 
-<section id="main_banner" class="container-fluid" style="margin-top:-200px;">
-<!--<img class="main_banner" src="{{ asset('front/assets/images/main_banner.png') }}" >
- <div class="container main_banner_text">
-    <div class="row">
-    <div class="col-12 col-md-6 col-lg-3 text_right">
-        <div class="right">
-        <h2>@lang('front.be_contributor')</h2>
-        <a href="{{route('donation.index')}}"><button type="button" class="btn btn-success">@lang('front.donation')<i class="fas fa-long-arrow-alt-right"></i></button></a>
-        </div>
-    </div>
-    </div>
-</div> -->
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    <img src="{{ asset('front/assets/images/main_banner1.png') }}" alt="First slide">
-    <div class="carousel-caption d-none d-md-block">
-      <h2>Your comfort is our goal!!!</h2>
-      <h5>Happy journey!</h5>
-    </div>
-  </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="{{ asset('front/assets/images/main_banner2.png') }}" alt="Second slide">
-      <div class="carousel-caption d-none d-md-block">
-        <h2>Most popular exotic car rental</h2>
-        <h5>Great deals!</h5>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="{{ asset('front/assets/images/main_banner.png') }}" alt="Third slide">
-      <div class="carousel-caption d-none d-md-block">
-        <h2>Vip klassen vehicles only for special clients</h2>
-        <h5>Perfect for businness meatings!</h5>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-</section>
 <section id="main" class="container">
-<div class="row justify-content-between news">
-    <div class="col-4">
+ <div class="row main_banner_colage">
 
-    <h4>@lang('front.main_news')</h4>
+  <div class="col-12 col-lg-6 main_left_col p-0">
+    <div class="card">
+      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner1.png') }}" alt="Card image cap">
     </div>
-    <div class="cocl-4  all_news">
-    <h6><a href="{{ route('index') }}">@lang('front.all_news')<i class="fas fa-long-arrow-alt-right"></i></a></h6>
-    </div>
+  </div>
+
+
+  <div class="col-12 col-lg-6 main_right_col p-0">
+  <div class="card gray_col">
+    <div class = "col-12 col-lg-12 p-0 ">
+     <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner2.png') }}" alt="Card image cap">
+   </div>
+
+   <div class = "col-12 col-lg-12 p-0 pt-2 d-flex justify-content-around">
+      <div class = "col-6 col-lg-6 p-0">
+       <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner3.png') }}" alt="Card image cap">
+     </div>
+       <div class = "col-6 col-lg-6 p-0 pl-2">
+         <div class = "col-12 col-lg-12 p-0">
+          <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner4.png') }}" alt="Card image cap">
+        </div>
+        <div class = "col-12 col-lg-12 p-0 pt-2 d-flex justify-content-around">
+
+          <div class = "col-6 col-lg-6 p-0">
+           <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner5.png') }}" alt="Card image cap">
+         </div>
+
+         <div class = "col-6 col-lg-6 p-0 pl-2">
+          <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner6.png') }}" alt="Card image cap">
+        </div>
+       </div>
+      </div>
+  </div>
 </div>
-<div class="row">
+</div>
 
+</div>
+
+
+
+<div class = "row  p-5 shuttle_row bg-white">
+  <div class = "card_heading d-flex justify-content-between">
+    <span class="bebas_neue">პოპულარული ღონისძიებები</span>
+    <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
+
+  </div>
+<div class = "row justify-content-around">
+<div class="col-12 col-lg-4">
+<div class="card">
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/bus.png') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">ავტო ტრანსფერი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+
+  <div class="col-7"> <span class="card_main_price">3</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+      <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-4">
+<div class="card">
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/concert4.jpg') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">კონცერტი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+
+  <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
+
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-4">
+<div class="card" >
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/corona.jpg') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">ფილმი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+
+  <div class="col-7"> <span class="card_main_price">9</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="row">
+  <div class = "reklama col-12">
+    <img class = "mt-0" src="{{ asset('front/assets/images/reklama2.png') }} "  />
+  </div>
+</div>
+
+
+<div class = "row  p-5 shuttle_row bg-white">
+  <div class = "card_heading d-flex justify-content-between">
+    <span class="bebas_neue">ახალი ღონისძიებები</span>
+    <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
+
+  </div>
+<div class = "row justify-content-around">
+<div class="col-12 col-lg-4">
+<div class="card">
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/turi1.jpg') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">ტური ბათუმში</a></h5>
+  <div class="row align-items-end m-0 py-2">
+
+  <div class="col-7"> <span class="card_main_price">30</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-4">
+<div class="card">
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/fari.jpg') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">მარტვილის კანიონი</a></h5>
+  <div class="row align-items-end m-0 py-2">
+
+  <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-4">
+<div class="card" >
+<img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/mogzauroba.jpg') }}" alt="Card image cap">
+<div class="card-body main_card_body p-0">
+  <h5 class="card-title text-center m-1"><a href="{{ route('news.fullstory',['id'=>$third->id]) }}">ტური ვაშლოვანში</a></h5>
+  <div class="row align-items-end m-0 py-2">
+
+  <div class="col-7"> <span class="card_main_price">655</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
+  <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
+
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+ <!--
     @if($first)
-  <!--  <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6">
         <div class="news_block">
         <div class="row">
         <div class="col-12 col-md-4 col-lg-6">
@@ -96,7 +196,7 @@
         </div>
         </div>
     </div>
-  -->
+
   <div class="col-12 col-lg-4">
   <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="{{ asset($first->image) }}" alt="Card image cap">
@@ -113,7 +213,7 @@
     @endif
 
     @if($second)
-    <!--<div class="col-12 col-lg-6">
+    <div class="col-12 col-lg-6">
         <div class="news_block">
         <div class="row">
         <div class="col-12 col-md-4 col-lg-6">
@@ -131,7 +231,7 @@
         </div>
         </div>
     </div>
-  -->
+
   <div class="col-12 col-lg-4">
   <div class="card" style="width: 18rem;">
   <img class="card-img-top rounded img-fluid" src="{{ asset($second->image) }}" alt="Card image cap">
@@ -149,7 +249,7 @@
 
 
     @if($third)
-    <!--
+
     <div class="col-12  news_block last_news">
     <div class="row">
         <div class="col-12 col-lg-6">
@@ -165,7 +265,7 @@
         </div>
     </div>
     </div>
-  -->
+
   <div class="col-12 col-lg-4">
   <div class="card" style="width: 18rem;">
   <img class="card-img-top rounded img-fluid" src="{{ asset($third->image) }}" alt="Card image cap">
@@ -181,6 +281,7 @@
 </div>
 
     @endif
+  -->
     </div>
 </section>
 

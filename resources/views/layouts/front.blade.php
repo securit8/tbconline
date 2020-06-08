@@ -6,7 +6,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{ asset('front/assets/images/favicon.png') }}">
 	<title>@yield('title')</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet"  href="{{ asset('front/assets/css/style.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset('front/assets/css/style.css') }}">
   <link rel="stylesheet"  href="{{ asset('front/assets/css/fonts.css') }}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subse0 t=all" rel="stylesheet" type="text/css" />
@@ -18,11 +18,29 @@
   @yield('style')
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ka_GE/sdk.js#xfbml=1&version=v7.0"></script>
 <header>
-  <div class="container header">
+<div class = "container-fluid">
+	<div class = "row d-flex justify-content-center">
+	<div class ="col-3 text-center">
+    <a class="brand" href="{{ route('index') }}"><img src="{{ asset('front/assets/images/benebrand.png') }}"></a>
+	</div>
+	<div class = "col-5 text-center">
+			<i class="fas fa-search search_btn"></i>
+      <input class="search_input" type="search" placeholder="ძიება სახელით, თარიღით, ადგილით..." aria-label="Search">
+	</div>
+
+	<div class = "col-3 text-center">
+      <button class="cart_btn" type="submit"><i class="fas fa-shopping-cart"></i><span>შესვლა</span></button>
+
+  </div>
+ </div>
+</div>
+
+  <div class="container-fluid">
     <div class="row">
-      <a class="col-2 main_logo" href="{{ route('index') }}"><!--<img src="{{ asset('front/assets/svg/logo_' . app()->getLocale().'.svg') }}">--></a>
-      <div class="col-8 col-sm-9">
+      <div class="col-9 col-sm-10 p-0">
           <nav>
             <div class="toggle">
               <span></span>
@@ -30,27 +48,27 @@
               <span></span>
               <span></span>
             </div>
-            <ul class="menu_list">
-              <li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">@lang('front.main')</a></li>
-              <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">@lang('front.news')</a></li>
-              <li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">@lang('front.cars')</a></li>
-              <li class=" @if($menu == 4) active @endif"><a href="{{ route('contributors.index') }}">@lang('front.conditions')</a></li>
-              <li class=" @if($menu == 5) active @endif"><a href="{{ route('about.index') }}">@lang('front.about_us')</a></li>
+            <ul id="menu_list" class="menu_list p-0">
+              <li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">მთავარი</a></li>
+              <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">ტრანსპორტი</a></li>
+              <li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">ივენთი</a></li>
+							<li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">კონცერტი</a></li>
+              <li class=" @if($menu == 4) active @endif"><a href="{{ route('contributors.index') }}">სპორტი</a></li>
+              <li class=" @if($menu == 5) active @endif"><a href="{{ route('about.index') }}">სხვა</a></li>
             </ul>
           </nav>
         </div>
-        <div class="col-2 col-sm-1">
-          <div class="search-box">
-            <input class="search-txt" type="text" name="" placeholder="ძებნა...">
-            <a class="search-btn" href="#">
-            <img src="{{ asset('front/assets/images/nn.png') }}"></a>
-          </div>
+
+      <!--  enis archeva
+			  <div class="col-2 col-sm-1">
           @if(app()->getLocale() === 'en')
             <a href="{{langUrl('ka')}}" class="lang_href">KA</a>
           @else
             <a href="{{langUrl('en')}}" class="lang_href">EN</a>
           @endif
         </div>
+			-->
+
     </div>
   </div>
 </header>
@@ -58,17 +76,56 @@
 @yield('main')
 
 
+<div class="container-fluid bg">
+<div class="container footer one">
+	<div class="row justify-content-between">
+
+<div class = "col-4">
+	<h5>სოციალური ქსელი</h5>
+	 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbeneexclusive&tabs=timeline&width=221&height=84&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="221" height="64" style="border:none;overflow:hidden;margin-bottom:0;height:80px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+	<div class ="col-6 d-flex justify-content-around pl-0 pt-1 fblink_icon">
+		<div class = "col-3">
+			<i class="fab fa-instagram fa-2x text-secondary"></i>
+		</div>
+		<div class = "col-3">
+		  <i class="fab fa-twitter fa-2x text-secondary"></i>
+		</div>
+		<div class = "col-3">
+		  <i class="fab fa-linkedin-square fa-2x text-secondary"></i>
+		</div>
+	</div>
+
+</div>
+
+<div class = "col-4">
+	<h5>ჩვენს შესახებ</h5>
+	<ul>
+		<li><a href="">ვინ ვართ ჩვენ</a></li>
+		<li><a href="">წესები და პირობები</a></li>
+		<li><a href="">სხვა სერვისები</a></li>
+	</ul>
+</div>
+
+<div class = "col-4">
+<h5>კონტაქტი</h5>
+<ul>
+	<li><a href=""><i class="fab fa-facebook-messenger mx-1"></i>ონლაინ დახმარება</a></li>
+	<li><a href=""><i class="fas fa-envelope mx-1"></i>bene@bene-exclusive.com</a></li>
+	<li><a href=""><i class="fas fa-phone-volume mx-1 pl-1"></i>(+995) 322 052 100</a></li>
+</ul>
+	</div>
+</div>
+</div>
+</div>
+
 <footer>
   <div class="container footer">
     <div class="row">
-    <div class="col-12 col-sm-5 col-lg-4 soc_icon">
-      <span class="fb"><a href="https://www.fb.com" target="_blank">Facebook</a></span>
-      <span class="in"><a href="https://www.instagram.com" target="_blank">Instagram</a></span>
-      <span class="tw"><a href="https://www.twitter.com" target="_blank">Twitter</a></span>
+    <div class="col-5 col-sm-5 col-lg-4 soc_icon">
+      <span class = "copy_span"><span ="copy_icon"><i class="far fa-copyright"></i></span>ყველა უფლება დაცულია.</span>
     </div>
-    <div class="col-12 col-sm-7 col-lg-8  mail_block">
-      <span>@lang('front.phone'): (+995) 577 308 408</span>
-      <span>@lang('front.mail'): L.Gelashvili@Gmail.com</span>
+    <div class="col-7 col-sm-7 col-lg-8  mail_block">
+      <a class="footer_brand" href="#"><img src="{{ asset('front/assets/images/benebrand.png') }}"></a></a>
     </div>
   </div>
 </div>
@@ -99,6 +156,17 @@
 <link rel="stylesheet"  href="{{ asset('front/assets/css/video_popup.css') }}">
 
 @yield('script')
-
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("menu_list").style.visibility = "visible";
+  } else {
+    document.getElementById("menu_list").style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 </body>
 </html>
