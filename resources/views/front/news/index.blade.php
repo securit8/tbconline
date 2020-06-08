@@ -21,7 +21,7 @@
 
       <div class = "row  p-5 shuttle_row bg-white">
         <div class = "card_heading d-flex justify-content-between">
-          <span>შატლი</span>
+          <span class="bebas_neue">შატლი</span>
           <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
 
         </div>
@@ -83,7 +83,7 @@
 
       <div class = "row  p-5 shuttle_row bg-white">
         <div class = "card_heading d-flex justify-content-between">
-          <span>ტურები</span>
+          <span class="bebas_neue">ტურები</span>
           <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
 
         </div>
@@ -147,7 +147,7 @@
 
       <div class = "row  p-5 shuttle_row bg-white">
         <div class = "card_heading d-flex justify-content-between">
-          <span>მოგზაურობა</span>
+          <span class="bebas_neue">მოგზაურობა</span>
           <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
 
         </div>

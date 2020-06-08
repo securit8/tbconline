@@ -22,8 +22,8 @@
 
 
   <div class="col-12 col-lg-6 main_right_col p-0">
-  <div class="card">
-    <div class = "col-12 col-lg-12 p-0">
+  <div class="card gray_col">
+    <div class = "col-12 col-lg-12 p-0 ">
      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner2.png') }}" alt="Card image cap">
    </div>
 
@@ -56,7 +56,7 @@
 
 <div class = "row  p-5 shuttle_row bg-white">
   <div class = "card_heading d-flex justify-content-between">
-    <span>პოპულარული ღონისძიებები</span>
+    <span class="bebas_neue">პოპულარული ღონისძიებები</span>
     <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
 
   </div>
@@ -87,7 +87,7 @@
   <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
   <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div>
 
-  
+
   </div>
 </div>
 </div>
@@ -121,7 +121,7 @@
 
 <div class = "row  p-5 shuttle_row bg-white">
   <div class = "card_heading d-flex justify-content-between">
-    <span>ახალი ღონისძიებები</span>
+    <span class="bebas_neue">ახალი ღონისძიებები</span>
     <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
 
   </div>
