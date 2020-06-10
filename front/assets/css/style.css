@@ -80,7 +80,7 @@ col-3,col-6{
   height:50px!important;
 }
 header {
-  background-color: #252525;
+  background: linear-gradient(to bottom, #000000 60%, #3B3B3B 100%);
   height:75px;
   line-height:;
   position: fixed;
@@ -97,20 +97,20 @@ header {
 
 .search_btn{
 position:absolute;
-top:24px;left:20px;
+top:27px;left:20px;
 z-index: 1;
 color:#878787;
-font-size: 1.3rem;
+font-size: 1.4rem;
 
 
 }
 .search_input{
   position: relative;
   margin:20px 0;
-  padding:2px 0;
+  padding:6px 0;
   width:100%;
   border-radius:20px;
-  background-color:#E2E2E2;
+  background-color:#F8F8F8;
   padding-left: 35px;
   border:none;
  font-size: 0.93rem;
@@ -118,11 +118,11 @@ font-size: 1.3rem;
 
 .cart_btn{
   margin:20px 0;
-  padding:2px 20px;
+  padding:6px 20px;
   border-radius: 20px;
   border:none;
   font-size: 0.93rem;
-
+  background-color:#F8F8F8;
 }
 .cart_btn span{
   color:#878787;
@@ -137,22 +137,24 @@ font-size: 1.3rem;
   text-align: center;
   position: fixed;
   width:60%;
-  padding:3px 0 3px 0;
+
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   z-index: 3;
   background-color:white;
-  -webkit-box-shadow: 0px 1px 17px -3px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 1px 17px -3px rgba(0,0,0,0.75);
-  box-shadow: 0px 1px 17px -3px rgba(0,0,0,0.75);
-
+  -webkit-box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.75);
+  overflow: hidden;
+  display: flex;
 }
 .menu_list li {
   display: inline;
-  padding: 0 32px;
-  padding-top: 3px;
   font-size: 12px;
   border-right:2px solid #C6C6C6;
+  width:17%;
+  padding:6px;
+
 }
 .menu_list li:last-child{
   border-right: none;
@@ -165,16 +167,26 @@ font-size: 1.3rem;
 
 }
 nav .active a {
-  color: #00a1ff;
   text-decoration: none;
   transition: all 0.5s ease-in;
+  width:100%;
+  font-weight: bold;
 }
+
+nav .active{
+  background-color: #007BFF;
+  color:white;
+}
+
+
 .menu_list li a:hover {
   color: #00a1ff;
   text-decoration: none;
   transition: all 0.5s ease-in;
 }
-
+nav .active a{
+  color:white;
+}
 .toggle {
   display: none;
 }
@@ -305,6 +317,18 @@ nav .active a {
   margin-top: 100px;
   margin-bottom: 150px;
 }
+.gray_col{
+  background-color:#F8F8F8;
+  -webkit-box-shadow: 0px 0px 0px -2px rgba(0,0,0,0.3)!important;
+  -moz-box-shadow:0px 0px 0px -2px rgba(0,0,0,0.3)!important;
+  box-shadow:0px 0px 0px -2px rgba(0,0,0,0.3)!important;
+  border:none;
+}
+.main_right_col{
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	 box-shadow: none;
+}
 .main_left_col .card img,.main_right_col .card img{
   border-radius: 25px;
 }
@@ -312,7 +336,22 @@ nav .active a {
    height:568px;
  }
 
+ @font-face {
+         font-family: 'Bebas Neue';
+         src: url('../../front/assets/fonts/BebasNeue-Regular.eot');
+         src: url('../../front/assets/fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+              url('../../front/assets/fonts/BebasNeue-Regular.otf'),
+              url('../../front/assets/fonts/BebasNeue-Regular.woff') format('woff'),
+              url('../../front/assets/fonts/BebasNeue-Regular.woff2') format('woff2'),
+              url('../../front/assets/fonts/BebasNeue-Regular.ttf') format('truetype');
 
+         font-weight: bold;
+         font-style: normal;
+     }
+
+.bebas_neue {
+  font-family: 'BPGDejaVuSansCaps-Book', sans-serif!important;
+}
 
 #main_banner .btn{
   text-transform: uppercase;
@@ -467,17 +506,18 @@ nav .active a {
 }
 
 .card{
-  border:none;
-  -webkit-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.3);
--moz-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.3);
-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.3);
-border-radius:25px;
+ border:none;
+ border-radius:25px;
+ -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.3);
+ -moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.3);
+ box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.3);
 }
 .card .card-title a{
   color:#AEAEAE!important;
   font-size: 1rem;
 
 }
+
 .card .row{
   background-color: #F8F8F8;
   border-bottom-left-radius: 25px;
@@ -485,10 +525,11 @@ border-radius:25px;
 
 }
 
+
 .shuttle_row{
--webkit-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.3);
--moz-box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.3);
-box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.3);
+box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.3);
 border-radius: 25px;
 margin:0 -15px;
 margin:80px auto;
@@ -1419,7 +1460,7 @@ margin:0 auto;
 
 
 footer {
-  background-color:#181818;
+  background: linear-gradient(to bottom, #000000 50%, #3B3B3B 100%);
 
   height: 30px;
 }

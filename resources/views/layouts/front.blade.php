@@ -18,6 +18,8 @@
   @yield('style')
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ka_GE/sdk.js#xfbml=1&version=v7.0"></script>
 <header>
 <div class = "container-fluid">
 	<div class = "row d-flex justify-content-center">
@@ -37,7 +39,7 @@
 </div>
 
   <div class="container-fluid">
-    <div class="row justify-content-center">
+    <div class="row">
       <div class="col-9 col-sm-10 p-0">
           <nav>
             <div class="toggle">
@@ -46,7 +48,7 @@
               <span></span>
               <span></span>
             </div>
-            <ul id="menu_list" class="menu_list justify-content-between">
+            <ul id="menu_list" class="menu_list p-0">
               <li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">მთავარი</a></li>
               <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">ტრანსპორტი</a></li>
               <li class=" @if($menu == 3) active @endif"><a href="news/shuttlle">ივენთი</a></li>
@@ -80,8 +82,8 @@
 
 <div class = "col-4">
 	<h5>სოციალური ქსელი</h5>
-	<img src="{{ asset('front/assets/images/fblink.PNG') }}" alt = "picture social"/>
-	<div class ="col-6 d-flex justify-content-around pl-0 pt-2 fblink_icon">
+	 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbeneexclusive&tabs=timeline&width=221&height=84&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="221" height="64" style="border:none;overflow:hidden;margin-bottom:0;height:80px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+	<div class ="col-6 d-flex justify-content-around pl-0 pt-1 fblink_icon">
 		<div class = "col-3">
 			<i class="fab fa-instagram fa-2x text-secondary"></i>
 		</div>
