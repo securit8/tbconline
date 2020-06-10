@@ -45,6 +45,10 @@ return [
             'driver' => 'token',
             'provider' => 'users',
         ],
+        'userlogin' => [
+            'driver' => 'session',
+            'provider' => 'userlogins',
+        ],
     ],
 
     /*
@@ -70,10 +74,10 @@ return [
             'model' => App\User::class,
         ],
 
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+         'userlogins' => [
+             'driver' => 'eloquent',
+             'model' =>  App\userlogins::class,
+         ],
     ],
 
     /*

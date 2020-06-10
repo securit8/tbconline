@@ -31,16 +31,33 @@ Route::get('/scholarships','Front\ScholarshipController@index')->name('scholarsh
 
 Route::get('/contributors','Front\ContributorsController@index')->name('contributors.index');
 
-Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
-Route::post('login', 'Auth\LoginController@login');
-Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+route::group(['prefix'=>'user'],function() {
+    Route::get('login', 'UserloginController@showLoginForm');
+    Route::get('login/test', 'UserloginController@testLogin');
+    Route::post('login', 'UserloginController@login')->name('user.login');
+    Route::post('logout', 'UserloginController@logout')->name('logout');
+    Route::get('register', 'UserregisterController@showregisterForm');
+    Route::post('register', 'UserregisterController@showregisterForm')->name('user.register');
+    Route::get('home','Front\mainController@index')->name('user.home');;
+
+
+});
+
+route::group(['prefix'=>'admin'],function() {
+    Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
+    Route::post('login', 'Auth\LoginController@login');
+    Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+    Route::get('dashboard','Admin\DashboardController@index')->name('dashboard');
+
+});
+
 
 Route::get('register', function(){return view('admin/register');});
 //Route::get('register', function(){return view('Auth\RegisterController');});
+Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['middleware'=>'auth','prefix'=>'admin'],function(){
 
-    Route::get('dashboard','Admin\DashboardController@index')->name('dashboard');
 
     Route::group(['prefix'=>'videos','namespace'=>'Admin'],function(){
         Route::get('','VideoController@index')->name('admin.videos.index');
@@ -125,6 +142,7 @@ Route::group(['middleware'=>'auth','prefix'=>'admin'],function(){
 
 });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+
+
