@@ -33,7 +33,7 @@ Route::get('/contributors','Front\ContributorsController@index')->name('contribu
 
 route::group(['prefix'=>'user'],function() {
     Route::get('login', 'UserloginController@showLoginForm');
-    Route::get('login/test', 'UserloginController@testLogin');
+   // Route::get('login/test', 'UserloginController@testLogin');
     Route::post('login', 'UserloginController@login')->name('user.login');
     Route::post('logout', 'UserloginController@logout')->name('logout');
     Route::get('register', 'UserregisterController@showregisterForm');
@@ -52,9 +52,7 @@ route::group(['prefix'=>'admin'],function() {
 });
 
 
-Route::get('register', function(){return view('admin/register');});
-//Route::get('register', function(){return view('Auth\RegisterController');});
-Route::get('/home', 'HomeController@index')->name('home');
+
 
 Route::group(['middleware'=>'auth','prefix'=>'admin'],function(){
 
