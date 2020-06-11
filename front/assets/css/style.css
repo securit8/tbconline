@@ -127,8 +127,13 @@ font-size: 1.4rem;
 .cart_btn span{
   color:#878787;
 }
+.cart_btn a{
+  text-decoration: none;
+}
 .cart_btn i{
   margin-right:7px;
+  color:black;
+
 }
 .menu_list{
   right:50%;

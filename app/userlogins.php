@@ -3,10 +3,10 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Foundation\Auth\UserLogin as Authenticatable;
+use Illuminate\Foundation\Auth\userLogin as Authenticatable;
 
 
-class userlogins extends  Authenticatable
+class userLogins extends  Authenticatable
 {
     protected $guard='userlogin';
 
