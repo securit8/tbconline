@@ -3,7 +3,9 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Foundation\Auth\userLogin as Authenticatable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+
+
 
 
 class userLogins extends  Authenticatable
@@ -11,7 +13,7 @@ class userLogins extends  Authenticatable
     protected $guard='userlogin';
 
     protected $fillable = [
-        'name', 'email', 'password',
+        'name','lastname', 'email', 'password',
     ];
 
     /**
@@ -22,5 +24,9 @@ class userLogins extends  Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+
+
+
 
 }
