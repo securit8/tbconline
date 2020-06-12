@@ -17,7 +17,7 @@ class UserregisterController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth:userlogin');
+        $this->middleware('guest:userlogin');
     }
     public function create(array $data)
     {
