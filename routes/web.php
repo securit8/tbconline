@@ -13,9 +13,13 @@
 
     Route::get('', 'Front\mainController@index')->name('index');
 
+
     Route::get('/news', 'Front\newsController@index')->name('news.index');
     Route::get('/news/{id}', 'Front\newsController@fullstory')->name('news.fullstory');
     route::get('/shuttle', 'Front\newsController@shuttle')->name('news.shuttle');
+
+Route::get('user/cart','Front\mainController@showcart')->name('user.cart');
+
 
     Route::get('/gallery', 'Front\GalleryController@index')->name('gallery.index');
     Route::get('/gallery/{id}', 'Front\GalleryController@fullstory')->name('gallery.fullstory');
