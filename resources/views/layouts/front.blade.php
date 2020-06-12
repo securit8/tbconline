@@ -32,11 +32,11 @@
 	</div>
 
 	<div class = "col-3 text-center">
-      <button class="cart_btn" type="submit"><a href="{{ route('user.login') }}">{!! Auth::userlogin() ? Auth::userlogin()->name : '<i class="fas fa-shopping-cart"></i><span>შესვლა</span>'!!}</a></button>
+      <button class="cart_btn" type="submit"><a href="{{ route('user.login') }}">{!! Auth::User() ? Auth::User()->name : '<i class="fas fa-shopping-cart"></i><span>შესვლა</span>'!!}</a></button>
 
   </div>
  </div>
-</div>
+</div>G
 
   <div class="container-fluid">
     <div class="row">

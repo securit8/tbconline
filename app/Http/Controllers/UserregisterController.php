@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 
-//use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use App\userlogins;
 use Illuminate\Support\Facades\Validator;
+
 
 
 class UserregisterController extends Controller
@@ -17,15 +19,23 @@ class UserregisterController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth:userlogin');
+        $this->middleware('guest:userlogin');
     }
-    public function create(array $data)
+
+
+    public function showregisterForm(){
+        return view('front/register');
+    }
+
+    public function create(Request $request)
     {
-        //
+        Log::info($request);
+
         return userlogins::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
+            'name' => $request['name'],
+            'lastname' => $request['lastname'],
+            'email' => $request['email'],
+            'password' => bcrypt($request['password']),
         ]);
     }
 
@@ -33,10 +43,12 @@ class UserregisterController extends Controller
     {
         return Validator::make($data, [
             'name' => 'required|string|max:255',
+            'lastname' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
         ]);
     }
+
     /**
      * Store a newly created resource in storage.
      *
@@ -54,9 +66,7 @@ class UserregisterController extends Controller
      * @param  \App\userlogin  $userlogin
      * @return \Illuminate\Http\Response
      */
-    public function showregisterForm(){
-        return view('front/register');
-    }
+
 
 
 }

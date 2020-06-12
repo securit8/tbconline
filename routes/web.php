@@ -11,26 +11,27 @@
 |
 */
 
-Route::get('','Front\mainController@index')->name('index');
+    Route::get('', 'Front\mainController@index')->name('index');
+
+    Route::get('/news', 'Front\newsController@index')->name('news.index');
+    Route::get('/news/{id}', 'Front\newsController@fullstory')->name('news.fullstory');
+    route::get('/shuttle', 'Front\newsController@shuttle')->name('news.shuttle');
+
+    Route::get('/gallery', 'Front\GalleryController@index')->name('gallery.index');
+    Route::get('/gallery/{id}', 'Front\GalleryController@fullstory')->name('gallery.fullstory');
+
+    Route::get('/donation', 'Front\DonationController@index')->name('donation.index');
+    Route::post('/donation/pay', 'API\TbcController@process')->name('donation.process');
+
+    Route::get('/about', 'Front\AboutController@index')->name('about.index');
+
+    Route::get('/videos', 'Front\VideoController@index')->name('video.index');
+
+    Route::get('/scholarships', 'Front\ScholarshipController@index')->name('scholarship.index');
+
+    Route::get('/contributors', 'Front\ContributorsController@index')->name('contributors.index');
 
 
-Route::get('/news','Front\newsController@index')->name('news.index');
-Route::get('/news/{id}','Front\newsController@fullstory')->name('news.fullstory');
-route::get('/shuttle','Front\newsController@shuttle')->name('news.shuttle');
-
-Route::get('/gallery','Front\GalleryController@index')->name('gallery.index');
-Route::get('/gallery/{id}','Front\GalleryController@fullstory')->name('gallery.fullstory');
-
-Route::get('/donation','Front\DonationController@index')->name('donation.index');
-Route::post('/donation/pay', 'API\TbcController@process')->name('donation.process');
-
-Route::get('/about','Front\AboutController@index')->name('about.index');
-
-Route::get('/videos','Front\VideoController@index')->name('video.index');
-
-Route::get('/scholarships','Front\ScholarshipController@index')->name('scholarship.index');
-
-Route::get('/contributors','Front\ContributorsController@index')->name('contributors.index');
 
 route::group(['prefix'=>'user'],function() {
     Route::get('login', 'UserloginController@showLoginForm');
@@ -38,7 +39,7 @@ route::group(['prefix'=>'user'],function() {
     Route::post('login', 'UserloginController@login')->name('user.login');
     Route::post('logout', 'UserloginController@logout')->name('logout');
     Route::get('register', 'UserregisterController@showregisterForm');
-    Route::post('register', 'UserregisterController@showregisterForm')->name('user.register');
+    Route::post('register', 'UserregisterController@create')->name('user.register');
     Route::get('home','Front\mainController@index')->name('user.home');;
 
 
