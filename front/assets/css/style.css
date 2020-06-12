@@ -428,7 +428,10 @@ nav .active a{
 }
 
 /*enc cart section*/
-
+.register_btn:focus{
+  border:none!important;
+  outline:none;
+}
 #main_banner .btn{
   text-transform: uppercase;
   text-decoration: none;

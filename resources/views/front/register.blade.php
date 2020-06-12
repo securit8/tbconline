@@ -89,8 +89,8 @@
 
                         <div class="form-group">
                             <div class="col-md-12 ">
-                                  <button type="submit" class="btn  border-radius">
-                                    login
+                                  <button type="button" class="btn  border-radius register_btn">
+                                    <a href="{{ route('user.login') }}">Login</a>
                                 </button>
 
 

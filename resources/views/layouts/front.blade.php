@@ -38,7 +38,7 @@
 
   </div>
  </div>
-</div>G
+</div>
 
   <div class="container-fluid">
     <div class="row">
@@ -133,18 +133,6 @@
 </div>
 </footer>
 
-<div class="sound">
-  <div class="sound--icon fa fa-volume-off"></div>
-  <div>
-    <div class="sound--wave sound--wave_one"></div>
-    <div class="sound--wave sound--wave_two"></div>
-  </div>
-</div>
-
-<audio id="backSound" loop>
-  <source src="{{ asset('front/assets/css/One_More_Light_Linkin_Park.mp3') }}">
-</audio>
-
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -158,17 +146,6 @@
 <link rel="stylesheet"  href="{{ asset('front/assets/css/video_popup.css') }}">
 
 @yield('script')
-<script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("menu_list").style.visibility = "visible";
-  } else {
-    document.getElementById("menu_list").style.visibility = "hidden";
-  }
-  prevScrollpos = currentScrollPos;
-}
-</script>
+
 </body>
 </html>
