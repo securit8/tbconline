@@ -13,6 +13,7 @@
 
 Route::get('','Front\mainController@index')->name('index');
 
+Route::get('user/cart','Front\mainController@showcart')->name('user.cart');
 
 Route::get('/news','Front\newsController@index')->name('news.index');
 Route::get('/news/{id}','Front\newsController@fullstory')->name('news.fullstory');
