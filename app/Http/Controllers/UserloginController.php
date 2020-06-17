@@ -57,6 +57,7 @@ class UserloginController extends Controller
             'password' => 'required|min:6'
         ]);
         if(Auth::guard('userlogin')->attempt(['email' => $request->email, 'password' => $request->password], $request->remember)){
+          dd(session());
 return redirect()->intended(route('user.home'));
         }
         return redirect()->back()->withInput($request->only('email', 'remember'));
