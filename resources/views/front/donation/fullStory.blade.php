@@ -19,13 +19,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/reklama2.PNG') }}" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/reklama2.png') }}" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
 
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/reklama.PNG') }}" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/reklama.png') }}" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
 
         </div>
@@ -45,12 +45,15 @@
 
 <div class="container p-0">
 
-   <h4 class = "mt-5 d-block">მოიარე კახეთი</h4>
+   <h4 class = "mt-5 d-block">მოიარე საქართველო...</h4>
         <!--<img class="inner_news_image" src="{{ asset('front/assets/images/shuttle.jpg') }}" width="300"  height="500" >-->
     <div class="row ">
-      <div class="col-md-6 pt-3 mt-3 ml-3" style="border-top:1px solid #c7c7c7;">
+      <div class="col-md-6  mt-3 ml-3" >
+      <div class="col-12 py-3 px-0 " style="border-top:1px solid #c7c7c7;border-bottom:1px solid #c7c7c7;">
         <p>დღეს, როდესაც უსაფრთხო რეკრეაცია მნიშვნელოვანია როგორც არასდროს, ჩვენ გთავაზობთ ტურებს განსხვავებული აქტივოებებითა და შესაძლებლობებით. ჩვენს ტურებში გუნდის ხელმძღვანელები სხვადასხვა დარგის ექსპერტები არიან, რომლებიც ბევრ საინტერესო აქტივობასა და ვორქშოპს გვთავაზობენ. „მოიარე“ ყოველ უქმეებზე  საქართველოს უნიკალური კუთხეები.
 ჩვენთან ერთად მოიარეთ ჩვენი ქვეყანა, მთა-ბარი, მოიარეთ საქართველო...</p>
+      </div>
+        <h5 class = "mt-5 d-block">მოიარე რაჭა</h5>
         <p>ტურის აღწერა:</p>
         <p></p>
         <p>ჯგუფის წევრების რაოდენობა 20-25 ადამიანი</p>
@@ -59,16 +62,16 @@
         <p></p>
         <p>მგზავრობა: ბენე ექსკლუზივის ავტოპარკით</p>
         <div class="dropdown">
-    <a href="" type="button" style="margin-left:70px;" class="text-center" onclick="event.preventDefault();detalebi()">დეტალები&#9660;
+    <a href="" type="button"  class="text-center" onclick="event.preventDefault();detalebi()">იხილეთ მეტი &#9660;
     </a>
     <div id="detalebi_div" class="detalebi_div">
       <p><p></p>
-<strong>დღე 1</strong><br>
+<strong>დღე 1</strong><br><br>
 10:00-გასვლა თბილისიდან სიღნაღის მიმართულებით. საშუალო მგზავრობის დრო 2 საათი.
 12:00-ჩეკ ინი სასტუმროში. სავარაუდოდ სასტუმრო კაბადონი.
 ამის შემდეგ შეგვიძლია გრუპ აქტივიტების დაგეგმვა სიღნაში, რაც შეიძლება იყოს ბოდბეს სამონასტრო კომპლექსში გადასვლა, კვადრო ან ბაგი ტური სიღნაღში, სიღნაღის გალავნზე ასვა, ვახშმობა, სიღნაღის მუზეუმის დათვალიერება(შემეცნებითი კუთხით საინტერესო იქნება), ღვინის დეგუსტაცია, გრუპ ლიდერთან ერთად აქტივიტები, მასტერკლასები.
 დღის დასასრული.
-<br><strong>დღე 2</strong><br>
+<br><br><strong>დღე 2</strong><br></br>
 შესაბამის დროს საუზმე.
 12:00-ჩეკ აუტი.
 მეორე დღეს შეგვიძლია გავემგზავროთ ასევე ყვარელში დეგუსტაციისთვის მეღვინეობა ხარებას გვირაბში(რაც მოიცავს საინტერესო ექსკურსიას, გვირაბში გასეირნებას და იქვე ღვინის დაგემოვნებას) და აქვე მივირთვათ ლანჩი. ან პირდაპირ სიღნაღიდან თბილისისკენ მგზავრობის დროს შევიაროთ თოხლიაურში გზად ვინერია კახეთში, დუგლაძეების მარანში(ოჯახური სიტუაციაა, კერძო სახლი ულამაზესი ბაღით) ღვინის დეგუსტაციისა და ლანჩისთვის.
