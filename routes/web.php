@@ -18,7 +18,7 @@
     Route::get('/news/{id}', 'Front\newsController@fullstory')->name('news.fullstory');
     route::get('/shuttle', 'Front\newsController@shuttle')->name('news.shuttle');
 
-Route::get('user/cart','Front\mainController@showcart')->name('user.cart');
+    Route::get('user/cart','Front\mainController@showcart')->name('user.cart');
 
 
     Route::get('/gallery', 'Front\GalleryController@index')->name('gallery.index');
@@ -26,6 +26,7 @@ Route::get('user/cart','Front\mainController@showcart')->name('user.cart');
 
     Route::get('/donation', 'Front\DonationController@index')->name('donation.index');
     Route::post('/donation/pay', 'API\TbcController@process')->name('donation.process');
+    Route::get('/donation/fullstory', 'Front\DonationController@fullstory')->name('donation.fullstory');
 
     Route::get('/about', 'Front\AboutController@index')->name('about.index');
 

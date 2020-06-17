@@ -43,22 +43,29 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-9 col-sm-10 p-0">
-          <nav>
-            <div class="toggle">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <ul id="menu_list" class="menu_list p-0">
-              <li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">მთავარი</a></li>
-              <li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">ტრანსპორტი</a></li>
-              <li class=" @if($menu == 3) active @endif"><a href="news/shuttlle">ივენთი</a></li>
-							<li class=" @if($menu == 3) active @endif"><a href="{{ route('gallery.index') }}">კონცერტი</a></li>
-              <li class=" @if($menu == 4) active @endif"><a href="{{ route('contributors.index') }}">სპორტი</a></li>
-              <li class=" @if($menu == 5) active @endif"><a href="{{ route('about.index') }}">სხვა</a></li>
-            </ul>
-          </nav>
+				<nav>
+
+					<div class="toggle">
+		              <span></span>
+		              <span></span>
+		              <span></span>
+		              <span></span>
+		         </div>
+
+
+
+			<ul id="" class="menu_list p-0">
+				<li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">მთავარი</a></li>
+				<li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">ტრანსპორტი</a></li>
+				<li class=" @if($menu == 3) active @endif"><a href="{{ route('donation.index') }}">ივენთი</a></li>
+				<li class=" @if($menu == 4) active @endif"><a href="{{ route('gallery.index') }}">კონცერტი</a></li>
+				<li class=" @if($menu == 5) active @endif"><a href="{{ route('contributors.index') }}">სპორტი</a></li>
+				<li class=" @if($menu == 6) active @endif"><a href="{{ route('about.index') }}">სხვა</a></li>
+	    </ul>
+</div>
+</nav>
+
+
         </div>
 
       <!--  enis archeva
