@@ -18,9 +18,7 @@
   </div>
 </div>
 
-<div class = "container text-center">
-  <h1 class = "event_title">მოიარე საქართველო...</h1>
-</div>
+
 
 <div class = "row">
 <div class="col-12 col-lg-6 pt-5">
