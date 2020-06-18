@@ -35,10 +35,10 @@
    </div>
 
    <div class="col-6 mb-2">
-     <div class = "col-12 px-1 pb-1">
-       <a href = "" ><img src = "{{ asset('front/assets/images/mybch.jpg') }}" style="width:100%;max-height:320px;" alt = "bene-cars.jpg" /></a>
+     <div class = "col-12 px-1 ">
+       <a href = "" ><img src = "{{ asset('front/assets/images/mybch302.jpg') }}" style="width:100%;" alt = "bene-cars.jpg" /></a>
      </div>
-     <div class = "col-12 d-flex justify-content-around">
+     <div class = "col-12 pt-1 d-flex justify-content-around">
        <div class = "col-6 pl-1" style="padding-right:2px;" >
         <a href = "" ><img src = "{{ asset('front/assets/images/scls.jpg') }}" style="width:100%;" alt = "bene-cars.jpg" /></a>
        </div>

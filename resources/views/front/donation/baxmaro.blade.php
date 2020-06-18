@@ -53,12 +53,12 @@
         <p>დღეს, როდესაც უსაფრთხო რეკრეაცია მნიშვნელოვანია როგორც არასდროს, ჩვენ გთავაზობთ ტურებს განსხვავებული აქტივოებებითა და შესაძლებლობებით. ჩვენს ტურებში გუნდის ხელმძღვანელები სხვადასხვა დარგის ექსპერტები არიან, რომლებიც ბევრ საინტერესო აქტივობასა და ვორქშოპს გვთავაზობენ. „მოიარე“ ყოველ უქმეებზე  საქართველოს უნიკალური კუთხეები.
 ჩვენთან ერთად მოიარეთ ჩვენი ქვეყანა, მთა-ბარი, მოიარეთ საქართველო...</p>
       </div>
-        <h5 class = "mt-5 d-block">1 ღამე კახეთში შუხმანის შატო</h5>
-        
+        <h5 class = "mt-5 d-block">2 ღამე ბახმაროში</h5>
+
         <p></p>
         <p>ჯგუფის წევრების რაოდენობა 20-25 ადამიანი</p>
         <p></p>
-        <p>დრო: 2 დღე 1 ღამე</p>
+        <p>დრო: 3 დღე 2 ღამე</p>
         <p></p>
         <p>მგზავრობა: ბენე ექსკლუზივის ავტოპარკით</p>
         <div class="dropdown">
@@ -67,15 +67,31 @@
     <div id="detalebi_div" class="detalebi_div">
       <p><p></p>
 <strong>დღე 1</strong><br><br>
-<p>09:00-თბილისიდან გამგზავრება თელავისკენ საშუალო მგზავრობის დრო 2 საათი.</p>
-<p>11:00-თელავში ერეკლე მეორეს სასახლის მონახულება. აქტივობის საშუალო დრო 1 საათი.</p>
-<p>12:30-სადილი ქართულ რესტორანში.</p>
-<p>14:00-განთავსება შატო შუხმანში. ღვინის დეგუსტაცია, ღვინის სპა, რელაქსაცია, მასტერკლასები, ღამისთევა.
+<p>09:00- თბილისდან გასვლა, ბახმაროს მიმართულებით, საშუალო მგზავრობის დრო 6 საათი.
 </p>
+<p>13:00-სადილი რესტორანში</p>
+<p>14:00-გამგზავრება ნაბეღლავის მიმართულებით. ნაბეღლავის წყლების დაგემოვნება.</p>
+<p>
+  14:45-ნაბეღლავიდან გასვლა ბახმაროს მიმართულებით. საშუალო მგზავრობის დრო 1 საათი და 15 წუთი.
+</p>
+<p>
+  16:00-განთავსება სასტუმროში.
+</p>
+<p>თავისუფალი დრო</p>
+
 <br><br><strong>დღე 2</strong><br></br>
 <p>საუზმე </p>
-<p>თავისუფალი დრო</p>
-<p>12:00-გამომგზავრება თბილისში.</p>
+<p>
+12:00-გასვლა ბახმაროდან გომის მთაზე. გზა მოითხოვს საშუალოდ 2 საათს. პიკნიკი, ცხენებით გასეირნება.
+ ჯგუფური აქტივობები </p>
+<p>
+18:00-ბახმაროში დაბრუნება.</p>
+
+<br><br><strong>დღე 3</strong><br></br>
+<p>საუზმე </p>
+<p>12:00-გამგზავრება თბილისის მიმართულებით.</p>
+
+
 </div>
   </div>
       </div>
@@ -92,7 +108,7 @@
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">720</span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">930</span>&nbsp;ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
@@ -108,7 +124,7 @@
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">520</span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">660</span>&nbsp;ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
@@ -123,7 +139,7 @@
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">365</span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">480</span>&nbsp;ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
