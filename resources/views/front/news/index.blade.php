@@ -21,44 +21,44 @@
 
       <div class = "row transport_banner">
    <div class="col-3 first_col">
-     <div class = "col-12">
-        <a href = "" ><img src = "{{ asset('front/assets/images/vclassamg.jpg') }}" style="width:100%; max-height:150px;" alt = "bene-cars.jpg" /></a>
+     <div class = "col-12 ">
+        <a href = "" ><img src = "{{ asset('front/assets/images/vcls.jpg') }}" style="width:100%; " alt = "bene-cars.jpg" /></a>
      </div>
 
      <div class = "col-12 py-1">
-         <a href = "" ><img src = "{{ asset('front/assets/images/sprinter16pas.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+         <a href = "" ><img src = "{{ asset('front/assets/images/sprnt.jpg') }}" style="width:100%;" alt = "bene-cars.jpg" /></a>
      </div>
 
-     <div class = "col-12">
-         <a href = "" ><img src = "{{ asset('front/assets/images/camry1.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+     <div class = "col-12 ">
+         <a href = "" ><img src = "{{ asset('front/assets/images/camry.jpg') }}" style="width:100%;" alt = "bene-cars.jpg" /></a>
      </div>
    </div>
 
-   <div class="col-6 px-1">
-     <div class = "col-12">
-       <a href = "" ><img src = "{{ asset('front/assets/images/maybach.jpg') }}" style="width:100%;max-height:304px;" alt = "bene-cars.jpg" /></a>
+   <div class="col-6 mb-2">
+     <div class = "col-12 px-1 ">
+       <a href = "" ><img src = "{{ asset('front/assets/images/mybch302.jpg') }}" style="width:100%;" alt = "bene-cars.jpg" /></a>
      </div>
      <div class = "col-12 pt-1 d-flex justify-content-around">
-       <div class = "col-6 pr-1">
-        <a href = "" ><img src = "{{ asset('front/assets/images/DSC9148.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+       <div class = "col-6 pl-1" style="padding-right:2px;" >
+        <a href = "" ><img src = "{{ asset('front/assets/images/scls.jpg') }}" style="width:100%;" alt = "bene-cars.jpg" /></a>
        </div>
-       <div class = "col-6">
-        <a href = "" ><img src = "{{ asset('front/assets/images/maybach1.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+       <div class = "col-6 pr-1" style="padding-left:2px;" >
+        <a href = "" ><img src = "{{ asset('front/assets/images/ecls.jpg') }}" style="width:100%;" alt = "bene-cars.jpg" /></a>
        </div>
      </div>
    </div>
 
    <div class="col-3">
      <div class = "col-12">
-        <a href = "" ><img src = "{{ asset('front/assets/images/landcruiser.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+        <a href = "" ><img src = "{{ asset('front/assets/images/toyotaland.jpg') }}" style="width:100%;" alt = "bene-cars.jpg" /></a>
      </div>
 
      <div class = "col-12 py-1">
-         <a href = "" ><img src = "{{ asset('front/assets/images/BE055NE.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+         <a href = "" ><img src = "{{ asset('front/assets/images/vcls.jpg') }}" style="width:100%;" alt = "bene-cars.jpg" /></a>
      </div>
 
      <div class = "col-12">
-         <a href = "" ><img src = "{{ asset('front/assets/images/lexus.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+         <a href = "" ><img src = "{{ asset('front/assets/images/lx.jpg') }}" style="width:100%;" alt = "bene-cars.jpg" /></a>
      </div>
    </div>
       </div>

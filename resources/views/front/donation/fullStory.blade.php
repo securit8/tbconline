@@ -53,8 +53,8 @@
         <p>დღეს, როდესაც უსაფრთხო რეკრეაცია მნიშვნელოვანია როგორც არასდროს, ჩვენ გთავაზობთ ტურებს განსხვავებული აქტივოებებითა და შესაძლებლობებით. ჩვენს ტურებში გუნდის ხელმძღვანელები სხვადასხვა დარგის ექსპერტები არიან, რომლებიც ბევრ საინტერესო აქტივობასა და ვორქშოპს გვთავაზობენ. „მოიარე“ ყოველ უქმეებზე  საქართველოს უნიკალური კუთხეები.
 ჩვენთან ერთად მოიარეთ ჩვენი ქვეყანა, მთა-ბარი, მოიარეთ საქართველო...</p>
       </div>
-        <h5 class = "mt-5 d-block">მოიარე რაჭა</h5>
-        <p>ტურის აღწერა:</p>
+        <h5 class = "mt-5 d-block">1 ღამე კახეთში შუხმანის შატო</h5>
+        
         <p></p>
         <p>ჯგუფის წევრების რაოდენობა 20-25 ადამიანი</p>
         <p></p>
@@ -67,15 +67,15 @@
     <div id="detalebi_div" class="detalebi_div">
       <p><p></p>
 <strong>დღე 1</strong><br><br>
-10:00-გასვლა თბილისიდან სიღნაღის მიმართულებით. საშუალო მგზავრობის დრო 2 საათი.
-12:00-ჩეკ ინი სასტუმროში. სავარაუდოდ სასტუმრო კაბადონი.
-ამის შემდეგ შეგვიძლია გრუპ აქტივიტების დაგეგმვა სიღნაში, რაც შეიძლება იყოს ბოდბეს სამონასტრო კომპლექსში გადასვლა, კვადრო ან ბაგი ტური სიღნაღში, სიღნაღის გალავნზე ასვა, ვახშმობა, სიღნაღის მუზეუმის დათვალიერება(შემეცნებითი კუთხით საინტერესო იქნება), ღვინის დეგუსტაცია, გრუპ ლიდერთან ერთად აქტივიტები, მასტერკლასები.
-დღის დასასრული.
+<p>09:00-თბილისიდან გამგზავრება თელავისკენ საშუალო მგზავრობის დრო 2 საათი.</p>
+<p>11:00-თელავში ერეკლე მეორეს სასახლის მონახულება. აქტივობის საშუალო დრო 1 საათი.</p>
+<p>12:30-სადილი ქართულ რესტორანში.</p>
+<p>14:00-განთავსება შატო შუხმანში. ღვინის დეგუსტაცია, ღვინის სპა, რელაქსაცია, მასტერკლასები, ღამისთევა.
+</p>
 <br><br><strong>დღე 2</strong><br></br>
-შესაბამის დროს საუზმე.
-12:00-ჩეკ აუტი.
-მეორე დღეს შეგვიძლია გავემგზავროთ ასევე ყვარელში დეგუსტაციისთვის მეღვინეობა ხარებას გვირაბში(რაც მოიცავს საინტერესო ექსკურსიას, გვირაბში გასეირნებას და იქვე ღვინის დაგემოვნებას) და აქვე მივირთვათ ლანჩი. ან პირდაპირ სიღნაღიდან თბილისისკენ მგზავრობის დროს შევიაროთ თოხლიაურში გზად ვინერია კახეთში, დუგლაძეების მარანში(ოჯახური სიტუაციაა, კერძო სახლი ულამაზესი ბაღით) ღვინის დეგუსტაციისა და ლანჩისთვის.
-ტურის დასასრული.</p>
+<p>საუზმე </p>
+<p>თავისუფალი დრო</p>
+<p>12:00-გამომგზავრება თბილისში.</p>
 </div>
   </div>
       </div>
@@ -92,7 +92,7 @@
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">90</span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">720</span>&nbsp;ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
@@ -101,14 +101,14 @@
 
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-4  ticket_padding_top">
-    <p style="color:black;font-size:1rem;padding-top:5px;">ორადგილიანი ნომერი</p>
+    <p style="color:black;font-size:1rem;padding-top:5px;">ორადგილიანი ნომერი (ერთი ადამიანი)</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
     <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button class="circle circle2 plus">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">200</span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">520</span>&nbsp;ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
@@ -116,14 +116,14 @@
 </div>
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-4  ticket_padding_top">
-    <p style="color:black;font-size:1rem;padding-top:5px;">ორადგილიანი + ერთი</p>
+    <p style="color:black;font-size:1rem;padding-top:5px;">ორადგილიანი (დამატებითი საწოლი)</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
     <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button class="circle circle2 plus">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">230</span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">365</span>&nbsp;ლარი</p>
   </div>
   <div class = "col-3 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
