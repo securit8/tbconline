@@ -19,61 +19,48 @@
         </div>
       </div>
 
-      <div class = "row  p-5 shuttle_row bg-white">
-        <div class = "card_heading d-flex justify-content-between">
-          <span class="bebas_neue">შატლი</span>
-          <img src="{{ asset('front/assets/images/arrow_down.png') }}" />
+      <div class = "row transport_banner">
+   <div class="col-3 first_col">
+     <div class = "col-12">
+        <a href = "" ><img src = "{{ asset('front/assets/images/vclassamg.jpg') }}" style="width:100%; max-height:150px;" alt = "bene-cars.jpg" /></a>
+     </div>
 
-        </div>
-      <div class = "row justify-content-around">
-      <div class="col-12 col-lg-4">
-      <div class="card">
-      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
-      <div class="card-body main_card_body p-0">
-        <h5 class="card-title text-center m-1"><a href="">თბილისი</a></h5>
-        <div class="row align-items-end m-0 py-2">
+     <div class = "col-12 py-1">
+         <a href = "" ><img src = "{{ asset('front/assets/images/sprinter16pas.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+     </div>
 
-        <div class="col-7"> <span class="card_main_price">3</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
-       <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
+     <div class = "col-12">
+         <a href = "" ><img src = "{{ asset('front/assets/images/camry1.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+     </div>
+   </div>
 
-        </div>
-      </div>
-      </div>
-      </div>
+   <div class="col-6 px-1">
+     <div class = "col-12">
+       <a href = "" ><img src = "{{ asset('front/assets/images/maybach.jpg') }}" style="width:100%;max-height:304px;" alt = "bene-cars.jpg" /></a>
+     </div>
+     <div class = "col-12 pt-1 d-flex justify-content-around">
+       <div class = "col-6 pr-1">
+        <a href = "" ><img src = "{{ asset('front/assets/images/DSC9148.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+       </div>
+       <div class = "col-6">
+        <a href = "" ><img src = "{{ asset('front/assets/images/maybach1.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+       </div>
+     </div>
+   </div>
 
+   <div class="col-3">
+     <div class = "col-12">
+        <a href = "" ><img src = "{{ asset('front/assets/images/landcruiser.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+     </div>
 
-      <div class="col-12 col-lg-4">
-      <div class="card">
-      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
-      <div class="card-body main_card_body p-0">
-        <h5 class="card-title text-center m-1"><a href="">რეგიონები</a></h5>
-        <div class="row align-items-end m-0 py-2">
+     <div class = "col-12 py-1">
+         <a href = "" ><img src = "{{ asset('front/assets/images/BE055NE.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+     </div>
 
-        <div class="col-7"> <span class="card_main_price">15</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
-          <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
-
-        </div>
-      </div>
-      </div>
-      </div>
-
-
-      <div class="col-12 col-lg-4">
-      <div class="card" >
-      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/auto.png') }}" alt="Card image cap">
-      <div class="card-body main_card_body p-0">
-        <h5 class="card-title text-center m-1"><a href="">VIP</a></h5>
-        <div class="row align-items-end m-0 py-2">
-
-        <div class="col-7"> <span class="card_main_price">25</span><span class="card_main_valut">ლ</span><span class="news_data">-დან</span></div>
-          <a href="news/shuttlle"> <div class="col-5 no_padding text-center"> <span class="news_more"><button class = "btn btn-primary py-2 px-4">მეტი</button></span></div></a>
-
-        </div>
-      </div>
-      </div>
-      </div>
-
-      </div>
+     <div class = "col-12">
+         <a href = "" ><img src = "{{ asset('front/assets/images/lexus.JPG') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+     </div>
+   </div>
       </div>
 
 
