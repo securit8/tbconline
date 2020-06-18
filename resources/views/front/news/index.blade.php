@@ -58,7 +58,7 @@
      </div>
 
      <div class = "col-12">
-         <a href = "" ><img src = "{{ asset('front/assets/images/lexus.JPG') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
+         <a href = "" ><img src = "{{ asset('front/assets/images/lexus.jpg') }}" style="width:100%;max-height:150px;" alt = "bene-cars.jpg" /></a>
      </div>
    </div>
       </div>
