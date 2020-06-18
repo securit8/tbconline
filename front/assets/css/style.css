@@ -614,10 +614,20 @@ nav .active a{
 .transport_banner .col-3,.transport_banner .col-12,.transport_banner .col-6,.transport_banner .col-4{
   padding:0;
 }
+.transport_banner img{
+  -webkit-transition: all 0.1s ease-in-out;
+   -moz-transition: all 0.1s ease-in-out;
+   -o-transition: all 0.1s ease-in-out;
+   transition: all 0.1s ease-in-out;
 
+
+}
 .transport_banner img:hover{
   transform: scale(0.985);
   opacity: 0.95;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.85);
 }
 
 .shuttle_row{
