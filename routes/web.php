@@ -26,8 +26,10 @@
 
     Route::get('/donation', 'Front\DonationController@index')->name('donation.index');
     Route::post('/donation/pay', 'API\TbcController@process')->name('donation.process');
-    Route::get('/donation/fullstory', 'Front\DonationController@fullstory')->name('donation.fullstory');
-
+    Route::get('/donation/kaxeti', 'Front\DonationController@fullstory')->name('donation.kaxeti');
+    Route::get('/donation/baxmaro', 'Front\DonationController@baxmaro')->name('donation.baxmaro');
+    Route::get('/donation/svaneti', 'Front\DonationController@svaneti')->name('donation.svaneti');
+    Route::get('/donation/racha', 'Front\DonationController@racha')->name('donation.racha');
     Route::get('/about', 'Front\AboutController@index')->name('about.index');
 
     Route::get('/videos', 'Front\VideoController@index')->name('video.index');
