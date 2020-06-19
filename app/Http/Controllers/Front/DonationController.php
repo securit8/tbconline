@@ -19,4 +19,16 @@ class DonationController extends Controller{
       return view('front/donation/fullStory',$data);
     }
 
+    public function baxmaro(){
+      $data['menu']= 3;
+      return view('front/donation/baxmaro',$data);
+    }
+    public function racha(){
+      $data['menu']= 3;
+      return view('front/donation/racha',$data);
+    }
+    public function svaneti(){
+      $data['menu']= 3;
+      return view('front/donation/svaneti',$data);
+    }
 }

@@ -100,7 +100,7 @@
     <div class ="row my-5 buy_ticket">
 <h2 class="my-5">ბილეთები</h2>
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
-  <div class = "col-4  ticket_padding_top">
+  <div class = "col-5  ticket_padding_top">
     <p style="color:black;font-size:1rem;padding-top:5px;">ერთადგილიანი ნომერი</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
@@ -108,40 +108,40 @@
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">930</span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">550</span>&nbsp;ლარი</p>
   </div>
-  <div class = "col-3 ticket_padding_top">
+  <div class = "col-2 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
   </div>
 </div>
 
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
-  <div class = "col-4  ticket_padding_top">
-    <p style="color:black;font-size:1rem;padding-top:5px;">ორადგილიანი ნომერი (ერთი ადამიანი)</p>
+  <div class = "col-5  ticket_padding_top">
+    <p style="color:black;font-size:1rem;padding-top:5px;">ორადგილიანი ნომერი</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
     <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button class="circle circle2 plus">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">660</span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">850</span>&nbsp;ლარი</p>
   </div>
-  <div class = "col-3 ticket_padding_top">
+  <div class = "col-2 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
   </div>
 </div>
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
-  <div class = "col-4  ticket_padding_top">
-    <p style="color:black;font-size:1rem;padding-top:5px;">ორადგილიანი (დამატებითი საწოლი)</p>
+  <div class = "col-5  ticket_padding_top">
+    <p style="color:black;font-size:1rem;padding-top:5px;">ორადგილიანი ნომერი და დამატებითი საწოლი</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
     <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button class="circle circle2 plus">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">480</span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">1255</span>&nbsp;ლარი</p>
   </div>
-  <div class = "col-3 ticket_padding_top">
+  <div class = "col-2 ticket_padding_top">
     <button type ="button" class = "btn btn-success">ყიდვა</button>
   </div>
 </div>
