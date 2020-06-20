@@ -30,6 +30,8 @@
     Route::get('/donation/baxmaro', 'Front\DonationController@baxmaro')->name('donation.baxmaro');
     Route::get('/donation/svaneti', 'Front\DonationController@svaneti')->name('donation.svaneti');
     Route::get('/donation/racha', 'Front\DonationController@racha')->name('donation.racha');
+    Route::get('/donation/vianotour', 'Front\DonationController@vianotour')->name('donation.vianotour');
+
     Route::get('/about', 'Front\AboutController@index')->name('about.index');
 
     Route::get('/videos', 'Front\VideoController@index')->name('video.index');

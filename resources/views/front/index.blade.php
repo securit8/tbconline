@@ -16,7 +16,7 @@
 
   <div class="col-12 col-lg-6 main_left_col p-0">
     <div class="card">
-      <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner1.png') }}" alt="Card image cap">
+      <a href = "{{route('donation.vianotour')}}"><img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner1.png') }}" alt="Card image cap"></a>
     </div>
   </div>
 

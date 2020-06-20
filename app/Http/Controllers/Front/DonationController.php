@@ -31,4 +31,9 @@ class DonationController extends Controller{
       $data['menu']= 3;
       return view('front/donation/svaneti',$data);
     }
+
+    public function vianotour(){
+      $data['menu']= 3;
+      return view('front/donation/vianotour',$data);
+    }
 }
