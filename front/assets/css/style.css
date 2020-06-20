@@ -338,7 +338,7 @@ nav .active a{
 .main_left_col .card img,.main_right_col .card img{
   border-radius: 25px;
 }
- 
+
 
  @font-face {
          font-family: 'Bebas Neue';
@@ -620,6 +620,9 @@ nav .active a{
    transition: all 0.1s ease-in-out;
    opacity:0.85;
 
+}
+.vianotour .col-4{
+  display:inline-block;
 }
 .transport_banner img:hover{
 

@@ -61,10 +61,10 @@
         <p>დრო: 3 დღე 2 ღამე</p>
         <p></p>
         <p>მგზავრობა: ბენე ექსკლუზივის ავტოპარკით</p>
-        <div class="dropdown">
+        <div class="dropdown pt-3">
     <a href="" type="button"  class="text-center" onclick="event.preventDefault();detalebi()">იხილეთ მეტი &#9660;
     </a>
-    <div id="detalebi_div" class="detalebi_div">
+    <div id="detalebi_div" class="detalebi_div pt-5">
       <p><p></p>
 <strong>დღე 1</strong><br><br>
 <p>
