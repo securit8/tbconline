@@ -14,7 +14,7 @@
 <section id="main" class="container">
  <div class="row main_banner_colage">
 
-  <div class="col-12 col-lg-6 main_left_col p-0">
+  <div class="col-12 col-lg-6 main_left_col p-0 pr-2">
     <div class="card">
       <a href = "{{route('donation.vianotour')}}"><img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner1.png') }}" alt="Card image cap"></a>
     </div>
@@ -29,20 +29,20 @@
 
    <div class = "col-12 col-lg-12 p-0 pt-2 d-flex justify-content-around">
       <div class = "col-6 col-lg-6 p-0">
-       <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner3.png') }}" alt="Card image cap">
+       <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_kh.png') }}" alt="Card image cap">
      </div>
        <div class = "col-6 col-lg-6 p-0 pl-2">
          <div class = "col-12 col-lg-12 p-0">
-          <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner4.png') }}" alt="Card image cap">
+          <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_bxmr.png') }}" alt="Card image cap">
         </div>
         <div class = "col-12 col-lg-12 p-0 pt-2 d-flex justify-content-around">
 
           <div class = "col-6 col-lg-6 p-0">
-           <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner5.png') }}" alt="Card image cap">
+           <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_rch.png') }}" alt="Card image cap">
          </div>
 
          <div class = "col-6 col-lg-6 p-0 pl-2">
-          <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_banner6.png') }}" alt="Card image cap">
+          <img class="card-img-top image img-fluid" src="{{ asset('front/assets/images/main_svnt.png') }}" alt="Card image cap">
         </div>
        </div>
       </div>
