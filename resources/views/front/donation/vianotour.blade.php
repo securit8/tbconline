@@ -13,19 +13,26 @@
 <div class = "container p-0" style = "margin-top: 150px;">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
 
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour2.png') }}" height="600" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour2.jpg') }}" height="600" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour3.jpg') }}" height="600" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
 
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour1.png') }}" height="600" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour1.jpg') }}" height="600" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
 
         </div>
@@ -62,39 +69,7 @@
          <p>მგზავრობა: ბენე ექსკლუზივის ავტოპარკით</p>
          <p></p>
          <p>ავტომობილი: Mercedes-Benz V-class</p>
-         <div class="dropdown pt-3">
-     <a href="" type="button"  class="text-center" onclick="event.preventDefault();detalebi()">იხილეთ მეტი &#9660;
-     </a>
-     <div id="detalebi_div" class="detalebi_div pt-5">
-       <p><p></p>
- <strong>დღე 1</strong><br><br>
- <p>09:00- თბილისდან გასვლა, ბახმაროს მიმართულებით, საშუალო მგზავრობის დრო 6 საათი.
- </p>
- <p>13:00-სადილი რესტორანში</p>
- <p>14:00-გამგზავრება ნაბეღლავის მიმართულებით. ნაბეღლავის წყლების დაგემოვნება.</p>
- <p>
-   14:45-ნაბეღლავიდან გასვლა ბახმაროს მიმართულებით. საშუალო მგზავრობის დრო 1 საათი და 15 წუთი.
- </p>
- <p>
-   16:00-განთავსება სასტუმროში.
- </p>
- <p>თავისუფალი დრო</p>
 
- <br><br><strong>დღე 2</strong><br></br>
- <p>საუზმე </p>
- <p>
- 12:00-გასვლა ბახმაროდან გომის მთაზე. გზა მოითხოვს საშუალოდ 2 საათს. პიკნიკი, ცხენებით გასეირნება.
-  ჯგუფური აქტივობები </p>
- <p>
- 18:00-ბახმაროში დაბრუნება.</p>
-
- <br><br><strong>დღე 3</strong><br></br>
- <p>საუზმე </p>
- <p>12:00-გამგზავრება თბილისის მიმართულებით.</p>
-
-
- </div>
-   </div>
        </div>
 
        <div class = "col-4">
@@ -108,39 +83,7 @@
          <p>მგზავრობა: ბენე ექსკლუზივის ავტოპარკით</p>
          <p></p>
          <p>ავტომობილი: Mercedes-Benz V-class</p>
-         <div class="dropdown pt-3">
-     <a href="" type="button"  class="text-center" onclick="event.preventDefault();detaleb()">იხილეთ მეტი &#9660;
-     </a>
-     <div id="detalebi_di" class="detalebi_div pt-5">
-       <p><p></p>
- <strong>დღე 1</strong><br><br>
- <p>09:00- თბილისდან გასვლა, ბახმაროს მიმართულებით, საშუალო მგზავრობის დრო 6 საათი.
- </p>
- <p>13:00-სადილი რესტორანში</p>
- <p>14:00-გამგზავრება ნაბეღლავის მიმართულებით. ნაბეღლავის წყლების დაგემოვნება.</p>
- <p>
-   14:45-ნაბეღლავიდან გასვლა ბახმაროს მიმართულებით. საშუალო მგზავრობის დრო 1 საათი და 15 წუთი.
- </p>
- <p>
-   16:00-განთავსება სასტუმროში.
- </p>
- <p>თავისუფალი დრო</p>
 
- <br><br><strong>დღე 2</strong><br></br>
- <p>საუზმე </p>
- <p>
- 12:00-გასვლა ბახმაროდან გომის მთაზე. გზა მოითხოვს საშუალოდ 2 საათს. პიკნიკი, ცხენებით გასეირნება.
-  ჯგუფური აქტივობები </p>
- <p>
- 18:00-ბახმაროში დაბრუნება.</p>
-
- <br><br><strong>დღე 3</strong><br></br>
- <p>საუზმე </p>
- <p>12:00-გამგზავრება თბილისის მიმართულებით.</p>
-
-
- </div>
-   </div>
        </div>
 
 
@@ -155,39 +98,7 @@
          <p>მგზავრობა: ბენე ექსკლუზივის ავტოპარკით</p>
          <p></p>
          <p>ავტომობილი: Mercedes-Benz V-class</p>
-         <div class="dropdown pt-3">
-     <a href="" type="button"  class="text-center" onclick="event.preventDefault();detale()">იხილეთ მეტი &#9660;
-     </a>
-     <div id="detalebi_d" class="detalebi_div pt-5">
-       <p><p></p>
- <strong>დღე 1</strong><br><br>
- <p>09:00- თბილისდან გასვლა, ბახმაროს მიმართულებით, საშუალო მგზავრობის დრო 6 საათი.
- </p>
- <p>13:00-სადილი რესტორანში</p>
- <p>14:00-გამგზავრება ნაბეღლავის მიმართულებით. ნაბეღლავის წყლების დაგემოვნება.</p>
- <p>
-   14:45-ნაბეღლავიდან გასვლა ბახმაროს მიმართულებით. საშუალო მგზავრობის დრო 1 საათი და 15 წუთი.
- </p>
- <p>
-   16:00-განთავსება სასტუმროში.
- </p>
- <p>თავისუფალი დრო</p>
 
- <br><br><strong>დღე 2</strong><br></br>
- <p>საუზმე </p>
- <p>
- 12:00-გასვლა ბახმაროდან გომის მთაზე. გზა მოითხოვს საშუალოდ 2 საათს. პიკნიკი, ცხენებით გასეირნება.
-  ჯგუფური აქტივობები </p>
- <p>
- 18:00-ბახმაროში დაბრუნება.</p>
-
- <br><br><strong>დღე 3</strong><br></br>
- <p>საუზმე </p>
- <p>12:00-გამგზავრება თბილისის მიმართულებით.</p>
-
-
- </div>
-   </div>
        </div>
       </div>
 
