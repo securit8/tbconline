@@ -11,7 +11,7 @@
 <section id="news" class="container-fluid">
 
 <div class = "container p-0" style = "margin-top: 150px;">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide w-75" style = "margin:0 auto;" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
@@ -20,19 +20,19 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour2.jpg') }}" height="600" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour1.jpg') }}" height="520" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
 
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour3.jpg') }}" height="600" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour3.jpg') }}" height="520" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
 
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour1.jpg') }}" height="600" alt="Second slide">
+        <img class="d-block w-100" src="{{ asset('front/assets/images/vianotour2.jpg') }}" height="520" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
 
         </div>
@@ -53,7 +53,7 @@
 
 <div class="container p-0">
 
-   <h4 class = "mt-5 d-block">სპეციალური შეთავაზება</h4>
+   <h4 class = "mt-5 ml-3 d-block">სპეციალური შეთავაზება</h4>
         <!--<img class="inner_news_image" src="{{ asset('front/assets/images/shuttle.jpg') }}" width="300"  height="500" >-->
     <div class="row ">
       <div class="col-md-12  mt-3 ml-3" >
