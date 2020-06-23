@@ -248,7 +248,7 @@ function coupon(){
   var kaxeti_price = document.getElementById('kaxeti_price');
   var yazbegi_price = document.getElementById('yazbegi_price');
   var ajara_price = document.getElementById('ajara_price');
-  if(coupon_code == 'tbc123' || coupon_code == 'vtb123' || coupon_code == 'vtb123'){
+  if(coupon_code == 'tbc123' || coupon_code == 'vtb123' || coupon_code == 'bog123'){
     kaxeti_price.value *=0.95;
     yazbegi_price.value *=0.95;
     ajara_price.value *=0.95
