@@ -13,7 +13,7 @@ class userLogins extends  Authenticatable
     protected $guard='userlogin';
 
     protected $fillable = [
-        'name','lastname', 'email', 'password',
+        'name','lastname', 'email', 'password','remember_token',
     ];
 
     /**
