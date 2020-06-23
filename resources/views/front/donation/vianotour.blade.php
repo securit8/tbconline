@@ -116,11 +116,6 @@
     </div>
     <div class ="row my-5 buy_ticket">
 <h2 class="my-5">ბილეთები</h2>
-<p></p>
-
-<div class = "col-12 pb-3 d-flex justify-content-end">
-<input id="coupon_input" style="border-radius:15px;padding:0 15px;" onkeyup="coupon()" type="text" class="align-self-end"  placeholder="promocode"/>
-</div>
 
 <form class="form-horizontal col-12" method="POST" action="https://www.flytaxi.ge/taxicall.php?md_time=<?=md5(time());?>">
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
@@ -137,6 +132,7 @@
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
     <button name = "send" type ="submit" class = "btn btn-success">ყიდვა</button>
+    <input id="coupon_input" style="border-radius:15px;font-size: 0.8rem;padding:0 5px;width:60px;height:20px;" onkeyup="coupon()" type="text" class="align-self-end ml-4"  placeholder="promo"/>
   </div>
 </div>
 </form>
@@ -156,6 +152,7 @@
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
     <button name ="send" type ="submit" class = "btn btn-success">ყიდვა</button>
+    <input id="coupon_input" style="border-radius:15px;font-size: 0.8rem;padding:0 5px;width:60px;height:20px;" onkeyup="coupon()" type="text" class="align-self-end ml-4"  placeholder="promo"/>
   </div>
 </div>
 </form>
@@ -175,6 +172,7 @@
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
     <button name ="send" type ="submit" class = "btn btn-success">ყიდვა</button>
+    <input id="coupon_input" style="border-radius:15px;font-size: 0.8rem;padding:0 5px;width:60px;height:20px;" onkeyup="coupon()" type="text" class="align-self-end ml-4"  placeholder="promo"/>
   </div>
 </div>
 </form>
@@ -249,9 +247,11 @@ function coupon(){
   var yazbegi_price = document.getElementById('yazbegi_price');
   var ajara_price = document.getElementById('ajara_price');
   if(coupon_code == 'tbc123' || coupon_code == 'vtb123' || coupon_code == 'bog123'){
+    if(kaxeti_price.value>'195'){
     kaxeti_price.value *=0.95;
     yazbegi_price.value *=0.95;
     ajara_price.value *=0.95
+  }
   }
 }
 </script>
