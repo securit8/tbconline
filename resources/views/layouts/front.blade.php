@@ -68,12 +68,25 @@
 				<nav>
 
 					<div class="toggle">
-						<span></span>
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
 
+		              <span></span>
+		              <span></span>
+		              <span></span>
+		              <span></span>
+		         </div>
+
+
+
+			<ul id="" class="menu_list p-0">
+				<li class=" @if($menu == 1) active @endif"><a href="{{ route('index') }}">მთავარი</a></li>
+				<li class=" @if($menu == 2) active @endif"><a href="{{ route('news.index') }}">ტრანსპორტი</a></li>
+				<li class=" @if($menu == 3) active @endif"><a href="{{ route('donation.index') }}">ივენთი</a></li>
+				<li class=" @if($menu == 4) active @endif"><a href="">კონცერტი</a></li>
+				<li class=" @if($menu == 5) active @endif"><a href="">სპორტი</a></li>
+				<li class=" @if($menu == 6) active @endif"><a href="">სხვა</a></li>
+	    </ul>
+</div>
+</nav>
 
 
 					<ul id="" class="menu_list p-0">
@@ -164,6 +177,19 @@
 
 
 
+
+
+<div class = "col-4">
+<h5>კონტაქტი</h5>
+<ul>
+	<li><a href=""><i class="fab fa-facebook-messenger mx-1"></i>ონლაინ დახმარება</a></li>
+	<li><a href=""><i class="fas fa-envelope mx-1"></i>info@bene-exclusive.com</a></li>
+	<li><a href=""><i class="fas fa-phone-volume mx-1 pl-1"></i>(+995) 322 052 100</a></li>
+</ul>
+	</div>
+</div>
+</div>
+</div>
 
 
 
