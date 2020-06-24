@@ -29,14 +29,16 @@ class UserregisterController extends Controller
 
     public function create(Request $request)
     {
-        Log::info($request);
 
-        return userlogins::create([
+
+         userlogins::create([
             'name' => $request['name'],
             'lastname' => $request['lastname'],
             'email' => $request['email'],
             'password' => bcrypt($request['password']),
+             'remember_token' => $request['_token'],
         ]);
+        return redirect(route('user.login'));
     }
 
     protected function validator(array $data)
