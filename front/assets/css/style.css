@@ -1261,6 +1261,23 @@ iframe {
   letter-spacing: 1rem;
 }
 
+.coupon_input{
+  border-radius:15px;
+  font-size: 0.8rem;
+  padding:10px;
+  width:60px;
+  height:20px;
+  background-color:#28A745 ;
+  color:white!important;
+  border:none;
+  margin-left: 20px;
+  transform: translateY(25%);
+
+}
+.coupon_input::placeholder{
+  color:white!important;
+}
+
 .donation button {
   font-size: 11px;
 }

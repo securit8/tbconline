@@ -132,7 +132,7 @@
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
     <button name = "send" type ="submit" class = "btn btn-success">ყიდვა</button>
-    <input id="coupon_input" style="border-radius:15px;font-size: 0.8rem;padding:0 5px;width:60px;height:20px;" onkeyup="coupon()" type="text" class="align-self-end ml-4"  placeholder="promo"/>
+    <input id="coupon_input"  onkeyup="coupon()" type="text" class="align-self-end coupon_input"  placeholder="promo"/>
   </div>
 </div>
 </form>
@@ -152,7 +152,7 @@
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
     <button name ="send" type ="submit" class = "btn btn-success">ყიდვა</button>
-    <input id="coupon_input" style="border-radius:15px;font-size: 0.8rem;padding:0 5px;width:60px;height:20px;" onkeyup="coupon()" type="text" class="align-self-end ml-4"  placeholder="promo"/>
+    <input id="coupon_input"  onkeyup="coupon()" type="text" class="align-self-end coupon_input"  placeholder="promo"/>
   </div>
 </div>
 </form>
@@ -172,7 +172,7 @@
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
     <button name ="send" type ="submit" class = "btn btn-success">ყიდვა</button>
-    <input id="coupon_input" style="border-radius:15px;font-size: 0.8rem;padding:0 5px;width:60px;height:20px;" onkeyup="coupon()" type="text" class="align-self-end ml-4"  placeholder="promo"/>
+     <input id="coupon_input"  name="coupon" onkeyup="coupon()" type="text" class="align-self-end coupon_input "  placeholder="promo"/>
   </div>
 </div>
 </form>
