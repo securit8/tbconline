@@ -119,7 +119,7 @@
 <h5>კონტაქტი</h5>
 <ul>
 	<li><a href=""><i class="fab fa-facebook-messenger mx-1"></i>ონლაინ დახმარება</a></li>
-	<li><a href=""><i class="fas fa-envelope mx-1"></i>bene@bene-exclusive.com</a></li>
+	<li><a href=""><i class="fas fa-envelope mx-1"></i>info@bene-exclusive.com</a></li>
 	<li><a href=""><i class="fas fa-phone-volume mx-1 pl-1"></i>(+995) 322 052 100</a></li>
 </ul>
 	</div>

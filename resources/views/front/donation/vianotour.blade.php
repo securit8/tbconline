@@ -147,12 +147,12 @@
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "yazbegi_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="{{$yazbegi_price}}"></span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "yazbegi_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="{{$yazbegi_price}}" readonly="readonly"></span>&nbsp;ლარი</p>
   </div>
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
     <button name ="send" type ="submit" class = "btn btn-success">ყიდვა</button>
-    <input id="coupon_input"  onkeyup="coupon()" type="text" class="align-self-end coupon_input"  placeholder="promo"/>
+    <input id="coupon_input"  onkeyup="coupon()" type="text" class="align-self-end coupon_input"  placeholder="promo" />
   </div>
 </div>
 </form>
