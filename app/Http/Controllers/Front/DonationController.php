@@ -20,11 +20,10 @@ class DonationController extends Controller{
     }
 
     public function baxmaro(){
-      //$product=DB::table('products')->pluck('price');
-      //dd($product[0]);
-      $data['menu']= 3;
 
-      //dd($this->products);
+      //dd($product[0]);
+         $data['menu']= 3;
+
       return view('front/donation/baxmaro',$data);
     }
     public function racha(){
@@ -38,6 +37,10 @@ class DonationController extends Controller{
 
     public function vianotour(){
       $data['menu']= 3;
+      $product=DB::table('products')->pluck('price');
+      $data['kaxeti_price']=$product[0];
+      $data['yazbegi_price']=$product[1];
+      $data['ajara_price']=$product[2];
       return view('front/donation/vianotour',$data);
     }
 }
