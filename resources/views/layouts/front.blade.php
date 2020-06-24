@@ -33,10 +33,11 @@
 
 			<div id="user_logout" class = "col-3 text-center dropdown">
 
-				<button class="cart_btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href ="{{route('user.cart')}}"><i class="fas fa-shopping-cart"></i></a><a href ="{{route('user.login')}}">{!! Auth::guard('userlogin')->check() ? Auth::guard('userlogin')->user()->name : " შესვლა "!!}</a></button>
+				<button class="cart_btn"><a href ="{{route('user.cart')}}"><i class="fas fa-shopping-cart"></i></a><a href ="{{route('user.login')}}">
+					{!! Auth::guard('userlogin')->check() ? Auth::guard('userlogin')->user()->name : " შესვლა "!!}</a></button><button class = "dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
 
 				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-					<ul class="nav navbar-nav pull-right">
+{{--					<ul class="nav navbar-nav pull-right">--}}
 						<li class="dropdown dropdown-user">
 
 
@@ -54,9 +55,9 @@
 
 
 
-						</li>
+					</li>
 
-					</ul>
+{{--					</ul>--}}
 				</div>
 			</div>
 		</div>

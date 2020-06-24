@@ -24,7 +24,7 @@ class DonationController extends Controller{
       //dd($product[0]);
       $data['menu']= 3;
 
-      dd($this->productsid);
+      //dd($this->products);
       return view('front/donation/baxmaro',$data);
     }
     public function racha(){
