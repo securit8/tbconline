@@ -113,6 +113,21 @@
           </div>
   </div>
 
+   <div>
+       <form class="form-horizontal" method="POST" action="https://www.flytaxi.ge/taxicall.php?md_time=<?=md5(time());?>">
+            <input type="text" name="name" value="oto">
+           <input type="text" name="tel" value="597348348">
+           <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
+           <input type="text" name="email" value="george.gorgadze@benegroup.ge">
+           <input  type="text" name="cash_f" value="0.01">
+           <input  type="text" name="tel" value="2">
+           <input  type="text" name="to_from_airport" value="ტური რაჭაში">
+           <button name="send" type="submit">
+               ყიდვა
+           </button>
+{{--           <input id="email" type="email" class="form-control border-radius" name="email" value="{{ old('email') }}" placeholder="E-Mail Address" required autofocus>  --}}
+       </form>
+   </div>
 
 <div class = "row  p-5 shuttle_row bg-white">
   <div class = "card_heading d-flex justify-content-between">
