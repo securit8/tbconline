@@ -21,17 +21,18 @@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ka_GE/sdk.js#xfbml=1&version=v7.0"></script>
 <header>
-	<div class = "container-fluid">
-		<div class = "row d-flex justify-content-center">
-			<div class ="col-3 text-center">
-				<a class="brand" href="{{ route('index') }}"><img src="{{ asset('front/assets/images/benebrand.png') }}"></a>
-			</div>
-			<div class = "col-5 text-center">
-				<i class="fas fa-search search_btn"></i>
-				<input class="search_input" type="search" placeholder="ძიება სახელით, თარიღით, ადგილით..." aria-label="Search">
-			</div>
 
-			<div id="user_logout" class = "col-3 text-center dropdown">
+<div class = "container-fluid">
+	<div class = "row d-flex justify-content-center">
+	<div class ="col-3 text-center">
+    <a class="brand" href="{{ route('index') }}"><img src="{{ asset('front/assets/images/benebrand.png') }}"></a>
+	</div>
+	<div class = "col-5 text-center">
+			<i class="fas fa-search search_btn"></i>
+      <input class="search_input" type="search" placeholder="ძიება სახელით, თარიღით, ადგილით..." aria-label="Search">
+	</div>
+	<div class = "col-3 text-center">
+
 
 				<button class="cart_btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href ="{{route('user.cart')}}"><i class="fas fa-shopping-cart"></i></a><a href ="{{route('user.login')}}">{!! Auth::guard('userlogin')->check() ? Auth::guard('userlogin')->user()->name : " შესვლა "!!}</a></button>
 
