@@ -11,7 +11,12 @@
 |
 */
 
-    Route::get('', 'Front\mainController@index')->name('index');
+
+
+
+Route::get('showform', 'guzzlepost@show')->name('show');
+Route::post('postform', 'guzzlepost@index')->name('viano');
+Route::get('', 'Front\mainController@index')->name('index');
 
 
     Route::get('/news', 'Front\newsController@index')->name('news.index');

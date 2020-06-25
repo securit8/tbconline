@@ -117,22 +117,23 @@
     <div class ="row my-5 buy_ticket">
 <h2 class="my-5">ბილეთები</h2>
 
-<form class="form-horizontal col-12" method="POST" action="https://www.flytaxi.ge/taxicall.php?md_time=<?=md5(time());?>">
+<form class="form-horizontal col-12" method="POST" action="{{ route('viano') }}">
+  {{ csrf_field() }}
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-5  ticket_padding_top">
     <p style="color:black;font-size:1rem;padding-top:5px;">კახეთი</p>
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button><span class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">1</span><button type="button" class="circle circle2 plus">+</button></p>
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button><input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;"><button  type="button" class="circle circle2 plus">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
     <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="{{$kaxeti_price}}"></span>&nbsp;ლარი</p>
   </div>
-  <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
+
   <div class = "col-2 ticket_padding_top">
     <button name = "send" type ="submit" class = "btn btn-success">ყიდვა</button>
-    <input id="coupon_input"  onkeyup="coupon()" type="text" class="align-self-end coupon_input"  placeholder="promo"/>
+    <input id="coupon_input" name="coupon" onkeyup="coupon()" type="text" class="align-self-end coupon_input"  placeholder="promo"/>
   </div>
 </div>
 </form>
@@ -177,7 +178,7 @@
 </form>
 
   </div>
-
+</div>
 
 </section>
 

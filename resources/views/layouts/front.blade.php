@@ -34,7 +34,9 @@
             <div class = "col-3 text-center">
 
 
+
                 <button class="cart_btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href ="{{route('user.cart')}}"><i class="fas fa-shopping-cart"></i></a><a href ="{{route('user.login')}}">{!! Auth::guard('userlogin')->check() ? Auth::guard('userlogin')->user()->name : " შესვლა "!!}</a></button>
+
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <ul class="nav navbar-nav pull-right">
@@ -57,6 +59,7 @@
 
                         </li>
 
+
                     </ul>
                 </div>
             </div>
@@ -67,6 +70,7 @@
         <div class="row">
             <div class="col-9 col-sm-10 p-0">
                 <nav>
+
 
                     <div class="toggle">
                         <span></span>
